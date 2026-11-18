@@ -1,0 +1,13 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="org.blinx.android.base" android:versionCode="1" android:versionName="0.1-preparation">
+    <uses-sdk android:minSdkVersion="28" android:targetSdkVersion="35" />
+    <uses-feature android:name="android.hardware.vulkan.version" android:version="0x00401000" android:required="true" />
+    <application android:allowBackup="false" android:label="Disc Port Original" android:theme="@android:style/Theme.Material.NoActionBar" android:extractNativeLibs="false" android:usesCleartextTraffic="false">
+        <activity android:name=".ImportActivity" android:exported="true" android:screenOrientation="sensorLandscape" android:configChanges="orientation|screenSize">
+            <intent-filter><action android:name="android.intent.action.MAIN" /><category android:name="android.intent.category.LAUNCHER" /></intent-filter>
+        </activity>
+        <activity android:name=".MinimalGameActivity" android:exported="false" android:process=":game" android:hardwareAccelerated="true" android:screenOrientation="sensorLandscape" android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize|uiMode">
+            <meta-data android:name="SDL_MAIN_LIBRARY" android:value="hakuxcore" />
+        </activity>
+        <activity android:name=".RestartActivity" android:exported="false" android:excludeFromRecents="true" android:noHistory="true" android:screenOrientation="sensorLandscape" />
+    </application>
+</manifest>

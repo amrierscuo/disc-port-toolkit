@@ -1,0 +1,34 @@
+# Local tools, upstream working trees and private products
+/cache/
+/dist/
+/build/
+/generated/
+/upstream/
+/local.inputs.json
+# Only the explanatory input markers belong in a commit.
+/inputs/**
+!/inputs/**/
+!/inputs/README.md
+!/inputs/**/PLACE*_HERE.txt
+__pycache__/
+*.py[cod]
+*.xbe
+*.iso
+*.xiso
+*.apk
+*.apks
+*.aab
+*.so
+*.dll
+*.exe
+*.obj
+*.pdb
+*.keystore
+*.jks
+*.p12
+*.pem
+*.key
+*.pass
+*.zip
+*.bundle
+.env

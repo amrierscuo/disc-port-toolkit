@@ -1,0 +1,61 @@
+{
+  "schema": "blinx-android-review-anchor/1",
+  "created_utc": "2026-11-17T14:28:54.560262+00:00",
+  "original_android_head": "ecd15943976c8bc3a064877003a0d6fad2326a14",
+  "original_private_history_bundle_sha256": "dad627a1201616ac882771bb7ff98b3b9316e87318128bf1dbae063d1c60d365",
+  "candidate_commits": [
+    {
+      "folder": "01_ANDROID_BASE",
+      "commit": "ff832e9c9b3a4c5c7f72b4400109327457b8c30f",
+      "tree": "4ae0defc8cc55d320a981c81ae1b87ea3876c9b2",
+      "dates": "2026-11-17T15:28:52+01:00 2026-11-17T15:28:52+01:00",
+      "files": 52,
+      "remote_count": 0
+    },
+    {
+      "folder": "02_ANDROID_COMPLETO",
+      "commit": "924bd481307205025e5cca36bb5662e8d2becb2d",
+      "tree": "c7e54007e65fb913d48c546cc2657c5f4f3ed8dd",
+      "dates": "2026-11-17T15:28:53+01:00 2026-11-17T15:28:53+01:00",
+      "files": 120,
+      "remote_count": 0
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "04_PACCHETTI_LOCALI/01_ANDROID_BASE_SORGENTI.zip",
+      "sha256": "2d49bef81627114dfc05c6bd796f94d62897d9ef988ffa5a4f67e629e2860a12",
+      "bytes": 141993,
+      "CRC_verified": true,
+      "extracted_audit": {
+        "ok": true,
+        "files": 51,
+        "errors": [],
+        "scope": "Technical export boundary and integrity; not a legal warranty or runtime proof"
+      },
+      "kind": "source_only_review_candidate"
+    },
+    {
+      "path": "04_PACCHETTI_LOCALI/02_ANDROID_COMPLETO_SORGENTI.zip",
+      "sha256": "ecb1c7482d61fe157713a9a4ab12a0c2b87e4020f4c9fc4fde90d1a3d4b4505a",
+      "bytes": 368517,
+      "CRC_verified": true,
+      "extracted_audit": {
+        "ok": true,
+        "files": 119,
+        "errors": [],
+        "scope": "Technical export boundary and integrity; not a legal warranty or runtime proof"
+      },
+      "kind": "source_only_review_candidate"
+    },
+    {
+      "path": "04_PACCHETTI_LOCALI/BLINX_ANDROID_BASE_NO_GAME.apk",
+      "sha256": "e693f9486ef8716b2824e12a835be3122d39f06afa14a9ed289f3007d3e7e23d",
+      "bytes": 10025275,
+      "kind": "local_game_free_test_APK_not_public_release",
+      "device_tested": false
+    }
+  ],
+  "time_claim": "Prepared now. Recorded older commit dates are not independently attested. No OpenTimestamps submission or proof exists yet.",
+  "authorship_claim": "No independent authorship certification"
+}

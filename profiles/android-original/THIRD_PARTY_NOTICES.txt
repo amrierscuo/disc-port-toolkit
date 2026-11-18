@@ -1,0 +1,13 @@
+Android support preparation, 17 November 2026.
+New preparation code and the GPL-marked Android adapters: GPL-3.0-or-later.
+hakuX core: rfandango/hakuX, v1.3.0, commit in NATIVE_SOURCE.lock.json.
+SDL Java glue is copied from that pinned hakuX integration, not claimed as
+our original implementation. SDL and other components retain their notices
+in third_party/licenses. COPYING/LICENSE do not license Xbox game data.
+The native core and two ARM64 libraries were not written or recompiled here.
+Game code, generated guest C, XBE/ISO, textures, models, music, logos, saves,
+signing identities, SDK/XDK and proprietary libraries are not included.
+No affiliation with or endorsement by Microsoft or Artoon is claimed.
+The historical .git and private recovery bundle are not publication inputs.
+Before a binary release, review complete corresponding native source and
+third-party source availability, including submodules and build dependencies.

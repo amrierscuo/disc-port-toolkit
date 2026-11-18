@@ -1,0 +1,76 @@
+diff --git a/config/seed_pal_runtime.json b/config/seed_pal_runtime.json
+new file mode 100644
+index 0000000000000000000000000000000000000000..87f852dcef664d776c93d3ad23a766fd5d5f5fbd
+--- /dev/null
++++ b/config/seed_pal_runtime.json
+@@ -0,0 +1,17 @@
++[
++  {
++    "start": "0x00182CD8",
++    "source": "Observed indirect target in run/first_boot.log; original PAL bytes and boundary in PAL_CALLBACKS_STATIC.json",
++    "observed": true
++  },
++  {
++    "start": "0x000FA350",
++    "source": "Observed indirect target in run/first_boot.log; original PAL bytes and boundary in PAL_CALLBACKS_STATIC.json",
++    "observed": true
++  },
++  {
++    "start": "0x000FA3C0",
++    "source": "Observed indirect target in run/first_boot.log; original PAL bytes and boundary in PAL_CALLBACKS_STATIC.json",
++    "observed": true
++  }
++]
+diff --git a/game.toml b/game.toml
+index e984e4b377598b5b3578eafce807e8cffc777860..63eb0fa8b088b00094880f41325a25f54b7f6e6d 100644
+--- a/game.toml
++++ b/game.toml
+@@ -44,5 +44,5 @@ gen = "src/recomp/gen"
+ out = "analysis"
+ # Function starts the disassembler missed (ICALL failures at runtime).
+-seeds = ["config/seed_functions.json"]
++seeds = ["config/seed_pal_runtime.json"] # Observed PAL indirect targets, not foreign-version seeds.
+ # The toolkit's icall_feedback database belongs to another game: off.
+ icall_seeds = false
+diff --git a/src/main.c b/src/main.c
+index 2172dcbc25d9d80cd1fb114bb3deb97ba548349a..a79114d18511e413ec7add76b68e7d0d6cf756cb 100644
+--- a/src/main.c
++++ b/src/main.c
+@@ -121,5 +121,5 @@ extern ptrdiff_t g_xbox_mem_offset;
+  * those win (host_main, step 2).
+  */
+-#define YOUR_GAME_ENTRY_POINT   0x000F362A  /* XBE entry point VA */
++#define YOUR_GAME_ENTRY_POINT   0x000F4D97  /* XBE entry point VA */
+ #define YOUR_GAME_XBE_PATH      "game_files/default.xbe"
+ #define YOUR_GAME_DIR            "game_files"
+@@ -788,5 +788,5 @@ static int host_main(void)
+      * "NV2A fence mirror: ... now written by the executor; mirror off" line
+      * confirms it. */
+-    xbox_Nv2aMirrorFence(0x00143B58, 0x2C, 0x30);   /* from D3D's fence wait at 0x00139410 */
++    xbox_Nv2aMirrorFence(0x00142058, 0x30, 0x34);   /* PAL bytes verified at 0x00138B30. */
+ 
+     /* The vblank interrupt, which the toolkit raises only on request. XDK
+@@ -989,5 +989,5 @@ static void host_enhance_init(void)
+      * keys there. A NULL entry ends the table, so the mod is added only
+      * when built (draw_distance_mod is NULL before mod API v3). */
+-    mods[0] = draw_distance_mod();
++    mods[0] = NULL; /* PAL: foreign-version draw-distance hook disabled. */
+     xbox_mod_register_table(mods);
+ #endif
+diff --git a/src/recomp_manual.c b/src/recomp_manual.c
+index df11bda53dbabc1e80fc5c0259e509331168c1dc..c3f21195c0274237d39ab096465125df7839c48a 100644
+--- a/src/recomp_manual.c
++++ b/src/recomp_manual.c
+@@ -140,4 +140,5 @@ recomp_func_t recomp_lookup_manual(uint32_t xbox_va)
+  * 4:3, narrower, or a build without the layer (display.aspect stays 0):
+  * s_cull_scale stays 0 and the call is the generated body alone, stock. */
++#if 0 /* Local PAL: foreign-version Hor+ and mod wrappers disabled. */
+ extern void sub_0009AD80_gen(void);
+ 
+@@ -194,4 +195,6 @@ void sub_000A2DE0(void)
+ }
+ 
++#endif
++
+ /* ── ICALL failure logging ─────────────────────────────────── */
+ 

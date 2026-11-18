@@ -1,0 +1,24 @@
+{
+  "pal_sha256": "3e4b51ed5e5a772b15e7d4112f12d37d89dd8bc77ad2528c89e287c32f43c1ab",
+  "game": {
+    "url": "https://github.com/apexJCL/blinx1-recomp.git",
+    "commit": "18324c3c8ae2c4edcd6487bbe9f04043fa47bdeb",
+    "patch_sha256": "64c0ec2bffc44381f8aaf95e2c3c65005089311d9acabd3dec52c0e321516e57"
+  },
+  "toolkit": {
+    "url": "https://github.com/apexJCL/xboxrecomp.git",
+    "commit": "e5a7087201cea886b3b5d72e50f5515581920526",
+    "patch_sha256": "4d1e51587b58188db083753a9f5633fefa0f504577d7270a5047a6c2e2fe01c5"
+  },
+  "cli": {
+    "url": "https://github.com/apexJCL/xboxrecomp-cli.git",
+    "commit": "277c3366aa4fe59ec9271949db83728956be70dd"
+  },
+  "python_packages": {
+    "capstone": "5.0.9",
+    "pefile": "2024.8.26"
+  },
+  "compiler_release": "20260922",
+  "cmake_version": "4.4.4",
+  "ninja_version": "1.13.2"
+}

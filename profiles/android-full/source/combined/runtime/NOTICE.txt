@@ -1,0 +1,26 @@
+Private combined Blinx runtime adapter
+
+The bundled native engine is hakuX 1.3.0, an open-source Xbox implementation
+using FEX CPU translation and a Vulkan renderer. It is not the static C
+recompilation used by the earlier CPU-only Android prototype.
+
+Upstream: https://github.com/rfandango/hakuX
+Release: https://github.com/rfandango/hakuX/releases/tag/v1.3.0
+Source revision: a90f01ee4629977b36a76175cbd781d383056293
+
+libhakuxcore.so and libSDL3.so are unchanged copies from the locally verified
+hakuX 1.3.0 APK. Their original hashes are recorded in source_receipt.json.
+No native source rebuild is claimed. SDL Java glue is from that exact source
+revision, retaining its notices and the upstream fullscreen hook.
+
+hakuX is licensed GPL-3.0-or-later. Component notices and license texts are
+included alongside this notice. This adapter's new Java sources are provided
+under GPL-3.0-or-later as indicated by their SPDX headers. The touch layout is
+adapted from the local Blinx demo, preserving its artwork and bindings.
+
+Game content and original game artwork remain separate from the engine's
+open-source licenses. This private package does not grant rights to them.
+Public distribution has not been prepared or authorized. This source snapshot
+is evidence for the adapter contract, not the complete corresponding source
+bundle for every native dependency; that source must be supplied as required
+by the applicable licenses before distributing derived binaries.

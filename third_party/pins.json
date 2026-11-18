@@ -1,0 +1,19 @@
+{
+  "sources": {
+    "hakux": {
+      "url": "https://github.com/rfandango/hakuX.git",
+      "commit": "a90f01ee4629977b36a76175cbd781d383056293",
+      "ref": "v1.3.0"
+    },
+    "fex": {
+      "url": "https://github.com/rfandango/FEX.git",
+      "commit": "52018bf46a8279b22bce738548ab3f40db467064"
+    }
+  },
+  "packer": {
+    "project": "XboxDev/extract-xiso",
+    "binary": "cache/tools/extract-xiso.exe",
+    "sha256": "7e97536f978735d586a2f78327aa337b9a19b3e364fa715316fb42d07d33e0b7",
+    "scope": "Optional for a complete extracted Android disc. Supply your own matching tool or a ready-made XISO."
+  }
+}

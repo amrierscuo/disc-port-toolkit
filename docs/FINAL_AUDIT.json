@@ -1,0 +1,46 @@
+{
+  "scope": "Build inputs and local outputs",
+  "profiles": {
+    "windows_clone1": {
+      "guide": "docs/BUILD_WINDOWS.md",
+      "source_pins": "profiles/windows-clone1/pins.json",
+      "disc_inputs": [
+        "pal"
+      ],
+      "outputs": [
+        "dist/windows/blinx1_recomp.exe",
+        "dist/windows/config.default.toml"
+      ]
+    },
+    "android_original": {
+      "guide": "docs/BUILD_ANDROID_ORIGINAL.md",
+      "native_source_lock": "profiles/android-original/NATIVE_SOURCE.lock.json",
+      "disc_inputs": [
+        "pal"
+      ],
+      "outputs": [
+        "dist/android-original/android-original.apk"
+      ]
+    },
+    "android_full": {
+      "guide": "docs/BUILD_ANDROID_FULL.md",
+      "native_source_lock": "profiles/android-original/NATIVE_SOURCE.lock.json",
+      "disc_inputs": [
+        "pal",
+        "demo"
+      ],
+      "resource_inventory": "profiles/android-full/dependencies/DEPENDENCY_INVENTORY.json",
+      "public_sources_and_notices": 59,
+      "private_resources": 263,
+      "native_libraries": 2,
+      "signing_key": "Locally supplied",
+      "outputs": [
+        "dist/android-full/blinx-full.apk"
+      ]
+    }
+  },
+  "disc_fingerprints": "tools/disc_fingerprints.json",
+  "publication_manifest": "PUBLICATION_MANIFEST.json",
+  "license_map": "LICENSES.md",
+  "asset_policy": "ASSET_POLICY.md"
+}

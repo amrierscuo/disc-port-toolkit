@@ -1,0 +1,289 @@
+disc-port-toolkit/
+|-- docs/
+|   |-- languages/
+|   |   |-- de.md
+|   |   |-- es.md
+|   |   |-- fr.md
+|   |   |-- it.md
+|   |   `-- ja.md
+|   |-- ARCHITECTURE.md
+|   |-- BUILD_ANDROID_FULL.md
+|   |-- BUILD_ANDROID_ORIGINAL.md
+|   |-- BUILD_WINDOWS.md
+|   |-- EXCLUSIONS.md
+|   |-- EXPORT_CHANGES.md
+|   |-- FILE_MAP.md
+|   |-- FINAL_AUDIT.json
+|   |-- FINAL_AUDIT.md
+|   |-- PUBLICATION_CHECKLIST.md
+|   |-- TROUBLESHOOTING.md
+|   `-- WINDOWS_HOST_PROVENANCE.md
+|-- inputs/
+|   |-- android-full/
+|   |   |-- demo/
+|   |   |   `-- PLACE_DEMO_INPUT_HERE.txt
+|   |   `-- pal/
+|   |       `-- PLACE_PAL_INPUT_HERE.txt
+|   |-- android-original/
+|   |   `-- PLACE_YOUR_INPUT_HERE.txt
+|   |-- windows/
+|   |   `-- PLACE_YOUR_INPUT_HERE.txt
+|   `-- README.md
+|-- preview/
+|   |-- code-verification.png
+|   |-- index.html
+|   |-- preview.css
+|   |-- preview.js
+|   `-- SCREENSHOT.md
+|-- profiles/
+|   |-- android-full/
+|   |   |-- dependencies/
+|   |   |   `-- DEPENDENCY_INVENTORY.json
+|   |   |-- source/
+|   |   |   |-- app/
+|   |   |   |   |-- res/
+|   |   |   |   |   `-- values/
+|   |   |   |   |       `-- styles.xml
+|   |   |   |   `-- src/
+|   |   |   |       `-- it/
+|   |   |   |           `-- blinx/
+|   |   |   |               `-- demo/
+|   |   |   |                   `-- v1/
+|   |   |   |                       |-- AssetInstaller.java
+|   |   |   |                       |-- BlinxArt.java
+|   |   |   |                       |-- DemoApplication.java
+|   |   |   |                       |-- Diagnostics.java
+|   |   |   |                       `-- LogProvider.java
+|   |   |   `-- combined/
+|   |   |       |-- carousel_live/
+|   |   |       |   `-- assets/
+|   |   |       |       `-- monsters_live/
+|   |   |       |           |-- carousel.js
+|   |   |       |           |-- index.html
+|   |   |       |           `-- style.css
+|   |   |       |-- frontend/
+|   |   |       |   `-- app/
+|   |   |       |       |-- src/
+|   |   |       |       |   `-- it/
+|   |   |       |       |       `-- blinx/
+|   |   |       |       |           `-- demo/
+|   |   |       |       |               `-- v1/
+|   |   |       |       |                   |-- DemoLocale.java
+|   |   |       |       |                   |-- HubActivity.java
+|   |   |       |       |                   |-- LiveMonsterCarousel.java
+|   |   |       |       |                   |-- MainActivity.java
+|   |   |       |       |                   |-- MenuMusic.java
+|   |   |       |       |                   |-- MonsterCarousel.java
+|   |   |       |       |                   `-- MusicActivity.java
+|   |   |       |       `-- AndroidManifest.xml
+|   |   |       |-- packaging/
+|   |   |       |   |-- java/
+|   |   |       |   |   `-- it/
+|   |   |       |   |       `-- blinx/
+|   |   |       |   |           `-- demo/
+|   |   |       |   |               `-- v1/
+|   |   |       |   |                   |-- DiscInstaller.java
+|   |   |       |   |                   `-- PalSaveInstaller.java
+|   |   |       |   |-- build_apk.py
+|   |   |       |   `-- test_disc_installer.py
+|   |   |       `-- runtime/
+|   |   |           |-- java/
+|   |   |           |   |-- com/
+|   |   |           |   |   `-- rfandango/
+|   |   |           |   |       `-- haku_x/
+|   |   |           |   |           `-- NativeCoreActivity.java
+|   |   |           |   `-- it/
+|   |   |           |       `-- blinx/
+|   |   |           |           `-- demo/
+|   |   |           |               `-- v1/
+|   |   |           |                   |-- AcceleratedGameActivity.java
+|   |   |           |                   |-- CoreRestartActivity.java
+|   |   |           |                   |-- RuntimeSettings.java
+|   |   |           |                   |-- TouchControls.java
+|   |   |           |                   `-- XboxTouchInput.java
+|   |   |           |-- provenance/
+|   |   |           |   `-- upstream/
+|   |   |           |       |-- licenses/
+|   |   |           |       |   |-- adpcm-xq.license.txt
+|   |   |           |       |   |-- adrenotools.license.txt
+|   |   |           |       |   |-- cephes.license.txt
+|   |   |           |       |   |-- FEX.license.txt
+|   |   |           |       |   |-- fmt.license.txt
+|   |   |           |       |   |-- glslang.license.txt
+|   |   |           |       |   |-- GPL-2.0.txt
+|   |   |           |       |   |-- LGPL-2.1.txt
+|   |   |           |       |   |-- nv2a_vsh_cpu.license.txt
+|   |   |           |       |   |-- range-v3.license.txt
+|   |   |           |       |   |-- rpmalloc.license.txt
+|   |   |           |       |   |-- SDL3.license.txt
+|   |   |           |       |   |-- snapdragon-gsr.license.txt
+|   |   |           |       |   |-- SoftFloat-3e.license.txt
+|   |   |           |       |   |-- SPIRV-Reflect.license.txt
+|   |   |           |       |   |-- unordered_dense.license.txt
+|   |   |           |       |   |-- volk.license.txt
+|   |   |           |       |   |-- VulkanMemoryAllocator.license.txt
+|   |   |           |       |   `-- xxHash.license.txt
+|   |   |           |       |-- .gitmodules
+|   |   |           |       |-- COPYING
+|   |   |           |       `-- LICENSE
+|   |   |           |-- sdl_java/
+|   |   |           |   `-- org/
+|   |   |           |       `-- libsdl/
+|   |   |           |           `-- app/
+|   |   |           |               |-- HIDDevice.java
+|   |   |           |               |-- HIDDeviceBLESteamController.java
+|   |   |           |               |-- HIDDeviceManager.java
+|   |   |           |               |-- HIDDeviceUSB.java
+|   |   |           |               |-- SDL.java
+|   |   |           |               |-- SDLActivity.java
+|   |   |           |               |-- SDLAudioManager.java
+|   |   |           |               |-- SDLControllerManager.java
+|   |   |           |               |-- SDLDummyEdit.java
+|   |   |           |               |-- SDLInputConnection.java
+|   |   |           |               |-- SDLSensorManager.java
+|   |   |           |               `-- SDLSurface.java
+|   |   |           `-- NOTICE.txt
+|   |   |-- tools/
+|   |   |   `-- prepare_menu_audio.py
+|   |   |-- build.py
+|   |   |-- LICENSE
+|   |   |-- test_inventory.py
+|   |   `-- THIRD_PARTY_NOTICES.txt
+|   |-- android-original/
+|   |   |-- app/
+|   |   |   |-- src/
+|   |   |   |   |-- com/
+|   |   |   |   |   `-- rfandango/
+|   |   |   |   |       `-- haku_x/
+|   |   |   |   |           `-- NativeCoreActivity.java
+|   |   |   |   `-- org/
+|   |   |   |       |-- blinx/
+|   |   |   |       |   `-- android/
+|   |   |   |       |       `-- base/
+|   |   |   |       |           |-- DiscStore.java
+|   |   |   |       |           |-- ImportActivity.java
+|   |   |   |       |           |-- MinimalGameActivity.java
+|   |   |   |       |           |-- RestartActivity.java
+|   |   |   |       |           |-- TouchControls.java
+|   |   |   |       |           `-- XboxTouchInput.java
+|   |   |   |       `-- libsdl/
+|   |   |   |           `-- app/
+|   |   |   |               |-- HIDDevice.java
+|   |   |   |               |-- HIDDeviceBLESteamController.java
+|   |   |   |               |-- HIDDeviceManager.java
+|   |   |   |               |-- HIDDeviceUSB.java
+|   |   |   |               |-- SDL.java
+|   |   |   |               |-- SDLActivity.java
+|   |   |   |               |-- SDLAudioManager.java
+|   |   |   |               |-- SDLControllerManager.java
+|   |   |   |               |-- SDLDummyEdit.java
+|   |   |   |               |-- SDLInputConnection.java
+|   |   |   |               |-- SDLSensorManager.java
+|   |   |   |               `-- SDLSurface.java
+|   |   |   `-- AndroidManifest.xml
+|   |   |-- tests/
+|   |   |   |-- DiscStoreTest.java
+|   |   |   |-- test_pad_recipe.py
+|   |   |   `-- test_pad_selection.py
+|   |   |-- third_party/
+|   |   |   |-- licenses/
+|   |   |   |   |-- adpcm-xq.license.txt
+|   |   |   |   |-- adrenotools.license.txt
+|   |   |   |   |-- cephes.license.txt
+|   |   |   |   |-- FEX.license.txt
+|   |   |   |   |-- fmt.license.txt
+|   |   |   |   |-- glslang.license.txt
+|   |   |   |   |-- GPL-2.0.txt
+|   |   |   |   |-- LGPL-2.1.txt
+|   |   |   |   |-- nv2a_vsh_cpu.license.txt
+|   |   |   |   |-- range-v3.license.txt
+|   |   |   |   |-- rpmalloc.license.txt
+|   |   |   |   |-- SDL3.license.txt
+|   |   |   |   |-- snapdragon-gsr.license.txt
+|   |   |   |   |-- SoftFloat-3e.license.txt
+|   |   |   |   |-- SPIRV-Reflect.license.txt
+|   |   |   |   |-- unordered_dense.license.txt
+|   |   |   |   |-- volk.license.txt
+|   |   |   |   |-- VulkanMemoryAllocator.license.txt
+|   |   |   |   `-- xxHash.license.txt
+|   |   |   `-- HAKUX_LICENSE.txt
+|   |   |-- build.py
+|   |   |-- generate_pad.py
+|   |   |-- LICENSE
+|   |   |-- native_inputs.py
+|   |   |-- NATIVE_SOURCE.lock.json
+|   |   |-- pad_assets.py
+|   |   `-- THIRD_PARTY_NOTICES.txt
+|   `-- windows-clone1/
+|       |-- upstream-notices/
+|       |   |-- blinx1-recomp-LICENSE.txt
+|       |   |-- blinx1-recomp-NOTICE.txt
+|       |   `-- xboxrecomp-LICENSE.txt
+|       |-- build.py
+|       |-- game-pal.patch
+|       |-- PAL-LICENSE.txt
+|       |-- pins.json
+|       `-- toolkit-pal.patch
+|-- provenance/
+|   |-- LEGACY_ANCHOR.json
+|   |-- LEGACY_ANCHOR.json.ots
+|   |-- LEGACY_OTS_RECEIPT.txt
+|   |-- OTS_STATUS_CURRENT.md
+|   `-- README.md
+|-- third_party/
+|   |-- licenses/
+|   |   |-- adpcm-xq.license.txt
+|   |   |-- adrenotools.license.txt
+|   |   |-- cephes.license.txt
+|   |   |-- FEX.license.txt
+|   |   |-- fmt.license.txt
+|   |   |-- glslang.license.txt
+|   |   |-- GPL-2.0.txt
+|   |   |-- HAKUX_LICENSE.txt
+|   |   |-- LGPL-2.1.txt
+|   |   |-- nv2a_vsh_cpu.license.txt
+|   |   |-- range-v3.license.txt
+|   |   |-- rpmalloc.license.txt
+|   |   |-- SDL3.license.txt
+|   |   |-- snapdragon-gsr.license.txt
+|   |   |-- SoftFloat-3e.license.txt
+|   |   |-- SPIRV-Reflect.license.txt
+|   |   |-- unordered_dense.license.txt
+|   |   |-- volk.license.txt
+|   |   |-- VulkanMemoryAllocator.license.txt
+|   |   `-- xxHash.license.txt
+|   |-- pins.json
+|   `-- README.md
+|-- tools/
+|   |-- build.py
+|   |-- build_progress.py
+|   |-- create_anchor_after_commit.py
+|   |-- disc_fingerprints.json
+|   |-- fetch_dependencies.py
+|   |-- start_android.ps1
+|   |-- start_dependencies.ps1
+|   |-- start_disc.py
+|   |-- start_here.ps1
+|   |-- start_progress.ps1
+|   |-- verify_inputs.py
+|   |-- verify_release.py
+|   `-- verify_repository.py
+|-- .gitattributes
+|-- .gitignore
+|-- ASSET_POLICY.md
+|-- build_android_full.cmd
+|-- build_android_original.cmd
+|-- build_windows.cmd
+|-- CONTRIBUTING.md
+|-- GIT_PUBLISH_BY_USER.md
+|-- LICENSE
+|-- LICENSES.md
+|-- local.inputs.example.json
+|-- NOTICE.md
+|-- PUBLICATION_MANIFEST.json
+|-- README.md
+|-- run_windows.cmd
+|-- SECURITY.md
+|-- START_HERE.cmd
+|-- TREE_PUBLIC.txt
+`-- verify_repository.cmd

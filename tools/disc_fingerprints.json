@@ -1,0 +1,21 @@
+{
+  "pal": {
+    "title": "4D530013",
+    "xbe": "3e4b51ed5e5a772b15e7d4112f12d37d89dd8bc77ad2528c89e287c32f43c1ab",
+    "files": 3092,
+    "payload_sha256": "070b3aac44f73eed1c5c8b17264885468fe246a13ee82fd96105e1d6208ce901",
+    "alternate_inventories": [
+      {
+        "description": "Previously verified extraction containing the media/tree.txt directory listing",
+        "files": 3093,
+        "payload_sha256": "e2d2fe0c32a98167b4b1301fb782b77f004046ba9eb93b392902e98390e69e44"
+      }
+    ]
+  },
+  "demo": {
+    "title": "494D000C",
+    "xbe": "2a54363381adacbe8ea6362e8ae613e6049bb19928c6caa25c6b98ede521d26a",
+    "files": 3043,
+    "payload_sha256": "4d07edeb88e0675b56f8197a979b98035e579e7cede1ba2ed8c7dbca5f04df7d"
+  }
+}

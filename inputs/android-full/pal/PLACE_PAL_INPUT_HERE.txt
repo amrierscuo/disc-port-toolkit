@@ -1,0 +1,1 @@
+Place your PAL disc.iso here, or a complete disc/ extraction. See docs/BUILD_ANDROID_FULL.md.

@@ -1,0 +1,1 @@
+The legacy anchor, detached proof and original receipt are byte-preserving copies. Read OTS_STATUS_CURRENT.md for the offline inspection and scope. No source archives, private history or APK are stored here.

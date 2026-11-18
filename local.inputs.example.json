@@ -1,0 +1,10 @@
+{
+  "note": "Layout reference. The wrappers use these paths relative to the repository root.",
+  "windows": "inputs/windows/disc/default.xbe",
+  "android_original": "inputs/android-original/disc.iso",
+  "android_full": {
+    "pal": "inputs/android-full/pal/disc.iso",
+    "demo": "inputs/android-full/demo/disc.iso",
+    "private_resources": "inputs/android-full/resources/"
+  }
+}

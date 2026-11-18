@@ -1,0 +1,11 @@
+# File map
+
+The main README and technical guides use English. The five guides under docs/languages/ and the offline preview/index.html provide the same general information through the six atlas languages. Open docs/WINDOWS_HOST_PROVENANCE.md for the origins and license terms of Clone 1 and its build inputs. The original Italian OpenTimestamps receipt is preserved as historical evidence alongside an English explanation.
+
+Double-click `START_HERE.cmd` for Windows Clone 1 or Android Original. Its PowerShell entry point, `tools/start_here.ps1`, selects the profile and disc. The helper scripts prepare the required tools, and `tools/start_disc.py` adapts your PAL image or extracted folder to the chosen profile. The README lists the single-command alternatives. Long-running setup tasks use `tools/start_progress.ps1`. The Python builders and disc checks use `tools/build_progress.py` for counters and timed estimates.
+
+Each profile has an independent builder and a guide under docs/. tools/build.py dispatches to the selected build profile. tools/disc_fingerprints.json identifies both supported editions. tools/fetch_dependencies.py can prepare a local pinned source cache, and tools/create_anchor_after_commit.py can create a local receipt for your first commit.
+
+profiles/windows-clone1 contains the Windows recipe, patches, pins and notices. run_windows.cmd opens the locally built executable using the supplied PAL disc. profiles/android-original contains the direct-launch app, touch controls, paired disc/receipt installation and tests. profiles/android-full contains the hub, public parts of its staging tree, dependencies/DEPENDENCY_INVENTORY.json and inventory/recovery tests. third_party retains applicable notices. inputs contains placement instructions. provenance contains historical evidence.
+
+TREE_PUBLIC.txt lists every public file. PUBLICATION_MANIFEST.json gives per-file size, SHA-256, origin, license and inclusion reason. The manifest cannot hash its own final bytes. Its detached digest is printed by the verifier and recorded in the private delivery receipt outside the repository. docs/EXPORT_CHANGES.md describes the export edits. docs/FINAL_AUDIT.md and its JSON companion summarize the build inputs and outputs for each profile.

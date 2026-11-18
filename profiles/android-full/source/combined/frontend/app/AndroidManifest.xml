@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="it.blinx.demo.v1" android:versionCode="18" android:versionName="0.2.7">
+    <uses-sdk android:minSdkVersion="28" android:targetSdkVersion="35" />
+    <uses-feature android:name="android.hardware.vulkan.version" android:version="0x00401000" android:required="true" />
+    <uses-feature android:name="android.hardware.gamepad" android:required="false" />
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
+    <application android:name=".DemoApplication" android:label="Disc Port Full"
+        android:theme="@style/DemoTheme" android:icon="@drawable/ic_launcher"
+        android:allowBackup="false" android:fullBackupContent="false"
+        android:extractNativeLibs="false" android:usesCleartextTraffic="false"
+        android:supportsRtl="true" android:enableOnBackInvokedCallback="false">
+        <activity android:name=".HubActivity" android:exported="true" android:screenOrientation="sensorLandscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" android:exported="false" android:screenOrientation="sensorLandscape" />
+        <activity android:name=".MusicActivity" android:exported="false" android:screenOrientation="sensorLandscape" />
+        <activity android:name=".AcceleratedGameActivity" android:exported="false" android:process=":game"
+            android:hardwareAccelerated="true" android:screenOrientation="sensorLandscape"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize|uiMode">
+            <meta-data android:name="SDL_MAIN_LIBRARY" android:value="hakuxcore" />
+        </activity>
+        <activity android:name=".CoreRestartActivity" android:exported="false" android:excludeFromRecents="true"
+            android:noHistory="true" android:screenOrientation="sensorLandscape"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize|uiMode" />
+        <provider android:name=".LogProvider" android:authorities="it.blinx.demo.v1.logs"
+            android:exported="false" android:grantUriPermissions="true">
+            <grant-uri-permission android:path="/diagnostics.txt" />
+        </provider>
+    </application>
+</manifest>

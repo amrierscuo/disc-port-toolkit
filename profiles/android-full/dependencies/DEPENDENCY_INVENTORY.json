@@ -1,0 +1,2014 @@
+{
+  "schema": "full-android-inputs/2",
+  "source_revision": "ecd15943976c8bc3a064877003a0d6fad2326a14",
+  "target_version": "0.2.7",
+  "effective_inputs": [
+    {
+      "target": "AndroidManifest.xml",
+      "group": "frontend_overlay",
+      "bytes": 2580,
+      "sha256": "3b12058b06d2c8fa2c43b60cbcb87ff0e376fe6580f4a813f8ffc41a5f58238f",
+      "public_source": "source/combined/frontend/app/AndroidManifest.xml",
+      "export_sha256": "e7ebe9a0e4908c2af7c9859a950d96155d4e0b57dfe90bd2d338f1ddb247883c",
+      "export_bytes": 2589
+    },
+    {
+      "target": "assets/blinx_ui/A.png",
+      "group": "base_app",
+      "bytes": 278,
+      "sha256": "5ca3330f9e95b339067d93b63826cd6142ab34a937f4a111a12c42da3175da21"
+    },
+    {
+      "target": "assets/blinx_ui/B.png",
+      "group": "base_app",
+      "bytes": 268,
+      "sha256": "e56dce13257aa77fece4e5bad4a849259329dbe5c80820cd3b90fc0371184e6d"
+    },
+    {
+      "target": "assets/blinx_ui/Back.png",
+      "group": "base_app",
+      "bytes": 680,
+      "sha256": "fb78d3fecab35b8e9a90be3d148cbe673a01afc6f47903829ded65c600eed80f"
+    },
+    {
+      "target": "assets/blinx_ui/Black.png",
+      "group": "base_app",
+      "bytes": 966,
+      "sha256": "1a1056ee8d1fff995a6dcdcc10f1f439b969966878a88741cf4199081383048c"
+    },
+    {
+      "target": "assets/blinx_ui/Chiudi demo.png",
+      "group": "base_app",
+      "bytes": 1359,
+      "sha256": "063e345202fc25d91a8a33eb19fb8913ca6316c9888b7b7eeeea941842e7f2ea"
+    },
+    {
+      "target": "assets/blinx_ui/Down.png",
+      "group": "base_app",
+      "bytes": 819,
+      "sha256": "f1d224b55d9c6775e49207a4f901f93e6faa4ee2e5331251b715547bb403d17e"
+    },
+    {
+      "target": "assets/blinx_ui/Exit.png",
+      "group": "base_app",
+      "bytes": 562,
+      "sha256": "ad1cbcb21156dbae17f3bc3463f66a5bdd5e7a539271ebdef57fca37a3b08b0a"
+    },
+    {
+      "target": "assets/blinx_ui/Gioca.png",
+      "group": "base_app",
+      "bytes": 899,
+      "sha256": "5a6bf381794db3d848cc5e105fdd186d51b2fd7840878a24cccc27824d98035b"
+    },
+    {
+      "target": "assets/blinx_ui/LS.png",
+      "group": "base_app",
+      "bytes": 337,
+      "sha256": "9e52d915909d149782f77b8f7096b36d0cf116e596e045666a1054185f9bcea9"
+    },
+    {
+      "target": "assets/blinx_ui/LT.png",
+      "group": "base_app",
+      "bytes": 181,
+      "sha256": "353510fb481585217a43ee4cb513d03e4f175729103cb40be6c75caee24afae4"
+    },
+    {
+      "target": "assets/blinx_ui/Left.png",
+      "group": "base_app",
+      "bytes": 786,
+      "sha256": "5f1be22e53fd61614e2c19d4a709fe224c392eb11845f147839d32bfeb40d449"
+    },
+    {
+      "target": "assets/blinx_ui/Log.png",
+      "group": "base_app",
+      "bytes": 569,
+      "sha256": "ebfcde7c07327b83efe632a5795e71cf3a229282422af2d654183a8b925aa399"
+    },
+    {
+      "target": "assets/blinx_ui/Play.png",
+      "group": "base_app",
+      "bytes": 553,
+      "sha256": "87e0e8ae7eb76effabd4a10849dd7d117672ec8f3707848b479f1ad7c0ec1ab5"
+    },
+    {
+      "target": "assets/blinx_ui/RS.png",
+      "group": "base_app",
+      "bytes": 480,
+      "sha256": "25a324ff96f1a25efdefaad4224ec97fe66428a4ea1c4bb4cd65057e08298c12"
+    },
+    {
+      "target": "assets/blinx_ui/RT.png",
+      "group": "base_app",
+      "bytes": 338,
+      "sha256": "20fbfd0e2a0154c25564e37a478b1b4457bba4b16e2cf45b928e4fd802a17d90"
+    },
+    {
+      "target": "assets/blinx_ui/Right.png",
+      "group": "base_app",
+      "bytes": 785,
+      "sha256": "3f9cfcd34bc2c510e59e930b8d2a3f5a02bcb4639339e5601738ecbea18eb236"
+    },
+    {
+      "target": "assets/blinx_ui/Start.png",
+      "group": "base_app",
+      "bytes": 608,
+      "sha256": "e11a3817603fee67e3e897dfa14e8806d083381d18783b6fa356ae5711b03093"
+    },
+    {
+      "target": "assets/blinx_ui/Up.png",
+      "group": "base_app",
+      "bytes": 787,
+      "sha256": "caf94ed8d303bcf06f177a5b2d91d4dc8c346e98a243d6d001f55452bdac0bbc"
+    },
+    {
+      "target": "assets/blinx_ui/White.png",
+      "group": "base_app",
+      "bytes": 850,
+      "sha256": "efb6b002b3f7ddc5ec47f420bd7ceb468ed0fe31dcba57a81cd8fa2f7041342b"
+    },
+    {
+      "target": "assets/blinx_ui/X.png",
+      "group": "base_app",
+      "bytes": 313,
+      "sha256": "d6fa4fe8404e7dceba922a798c33f265c28ac000d1c5ed1335dbbe87c920ea61"
+    },
+    {
+      "target": "assets/blinx_ui/Y.png",
+      "group": "base_app",
+      "bytes": 229,
+      "sha256": "84b5db9e37e1eaaf9a5b4372538e989c6f949dbb1a506f1e261b334e3adf5b13"
+    },
+    {
+      "target": "assets/blinx_ui/background.png",
+      "group": "base_app",
+      "bytes": 221445,
+      "sha256": "0c8f80cbe4be3b05b54001c13adf7d110ff2b2ad72adabb6785bd18e258b35d4"
+    },
+    {
+      "target": "assets/blinx_ui/button.png",
+      "group": "base_app",
+      "bytes": 4618,
+      "sha256": "c1c4d2891d7d0a54c23ab68a253447bac08eb35742024e56ec196b1ef01f03a6"
+    },
+    {
+      "target": "assets/blinx_ui/edition_tgs.png",
+      "group": "frontend_overlay",
+      "bytes": 240818,
+      "sha256": "04c4d26caeee6f37ad22aadeaad82488f2b8e83fd5e6304d14f6c1dfa5a73100"
+    },
+    {
+      "target": "assets/blinx_ui/hub_Demo.png",
+      "group": "frontend_overlay",
+      "bytes": 990,
+      "sha256": "d590fd6c9ac403205a05cff25a71eda1f3d8e231868abe130789249ddb8036db"
+    },
+    {
+      "target": "assets/blinx_ui/hub_Music.png",
+      "group": "frontend_overlay",
+      "bytes": 1042,
+      "sha256": "6e5637012068030ec226403646a02580b06dcd0eccdc191731fc0ba54ba6d4c8"
+    },
+    {
+      "target": "assets/blinx_ui/hub_Original_Game.png",
+      "group": "frontend_overlay",
+      "bytes": 1835,
+      "sha256": "a6db4e8e53b8d6a3f144d6b065b43ccba5264dff32ae9f92416e532caa599ea9"
+    },
+    {
+      "target": "assets/blinx_ui/hub_sky.png",
+      "group": "frontend_overlay",
+      "bytes": 21907,
+      "sha256": "a8d920c55128abf651da34b4eb9373082a269abc5955832bfdd0e9749a9d5182"
+    },
+    {
+      "target": "assets/blinx_ui/launcher_Cancel.png",
+      "group": "base_app",
+      "bytes": 878,
+      "sha256": "e48e1431264d1c800d9f4e8eabd757a5f90c50ec9bffc8c18c7763c79a899729"
+    },
+    {
+      "target": "assets/blinx_ui/launcher_English.png",
+      "group": "base_app",
+      "bytes": 1105,
+      "sha256": "a2752789098dbe59f33be079fb79e40857ef1e5e6f92dab1ac878b41257333e3"
+    },
+    {
+      "target": "assets/blinx_ui/launcher_Exit.png",
+      "group": "base_app",
+      "bytes": 562,
+      "sha256": "ad1cbcb21156dbae17f3bc3463f66a5bdd5e7a539271ebdef57fca37a3b08b0a"
+    },
+    {
+      "target": "assets/blinx_ui/launcher_French.png",
+      "group": "base_app",
+      "bytes": 968,
+      "sha256": "678edc909dfb371d5f8d4587c6f5b81e789d4b63595db3e09f0493b235760b8b"
+    },
+    {
+      "target": "assets/blinx_ui/launcher_Game_language.png",
+      "group": "base_app",
+      "bytes": 1571,
+      "sha256": "da6b639e2aae05dc6a4c9a703f0e482c49036d2cdb64003a8e66b093090c6384"
+    },
+    {
+      "target": "assets/blinx_ui/launcher_German.png",
+      "group": "base_app",
+      "bytes": 1356,
+      "sha256": "df24c16a1f248bdc636c32018b9d377a6a06677ae67996c909450b9ac5339c6b"
+    },
+    {
+      "target": "assets/blinx_ui/launcher_Italian.png",
+      "group": "base_app",
+      "bytes": 643,
+      "sha256": "1776e89e9c095129d6947a9f450711a01a0e08af12a009a5be2d6486749fa87e"
+    },
+    {
+      "target": "assets/blinx_ui/launcher_Japanese.png",
+      "group": "base_app",
+      "bytes": 1063,
+      "sha256": "4538b8dc3aaa8fba8a179acb26f23d8abb655308cd7294164036a5a13f81a478"
+    },
+    {
+      "target": "assets/blinx_ui/launcher_Language.png",
+      "group": "base_app",
+      "bytes": 1083,
+      "sha256": "862994f189c7349e8b4beeb49a63bf46a2bb302f971f26317d7c6661fb2b5a13"
+    },
+    {
+      "target": "assets/blinx_ui/launcher_Language_English.png",
+      "group": "base_app",
+      "bytes": 1698,
+      "sha256": "78ec212e6a5605684b2b067ee2e9a79d929e69da2f605afd0afe47d7027c37ba"
+    },
+    {
+      "target": "assets/blinx_ui/launcher_Language_French.png",
+      "group": "base_app",
+      "bytes": 1863,
+      "sha256": "ec12ecfdcda0eb5211fa0ba73ed143242638e93d573fa1d4b40149a96a203410"
+    },
+    {
+      "target": "assets/blinx_ui/launcher_Language_German.png",
+      "group": "base_app",
+      "bytes": 1835,
+      "sha256": "da6df27f0958b4bd892358834456e360f7bf00069d3a6dac072cabfffa9580ee"
+    },
+    {
+      "target": "assets/blinx_ui/launcher_Language_Italian.png",
+      "group": "base_app",
+      "bytes": 1472,
+      "sha256": "b212a9620eb9d2981201a09a56ad425f0df2eae87f7c9a51dcb49b7bcf22006c"
+    },
+    {
+      "target": "assets/blinx_ui/launcher_Language_Japanese.png",
+      "group": "base_app",
+      "bytes": 1819,
+      "sha256": "9e94db20b97946d7a79da17161eacbba73c797c629c8f40f570f58c05bdfbe25"
+    },
+    {
+      "target": "assets/blinx_ui/launcher_Language_Original.png",
+      "group": "base_app",
+      "bytes": 1876,
+      "sha256": "1b89a6d72f5f237f3aef8bd2d0c682e2ac61b6596bb615e14044043ec3299bb4"
+    },
+    {
+      "target": "assets/blinx_ui/launcher_Language_Spanish.png",
+      "group": "base_app",
+      "bytes": 1728,
+      "sha256": "3dca8b91d387bfaf197261169350c4406fcf8b75a9cf4851e5e3dae69b72457d"
+    },
+    {
+      "target": "assets/blinx_ui/launcher_Log.png",
+      "group": "base_app",
+      "bytes": 648,
+      "sha256": "b05991648bcc1354e2beffc861f7c4ff3c270e5705e28fa47eb3d44ce5477e39"
+    },
+    {
+      "target": "assets/blinx_ui/launcher_Original.png",
+      "group": "base_app",
+      "bytes": 1345,
+      "sha256": "271251467595299dc6a5e562d97c3db333bab55909bdf877e35dc94dbb3bffb2"
+    },
+    {
+      "target": "assets/blinx_ui/launcher_Play.png",
+      "group": "base_app",
+      "bytes": 556,
+      "sha256": "3595d2dc61defe43c51bf1f3473467aa6fb44ee4b7fe1d3b30aa0cfa13fc0a15"
+    },
+    {
+      "target": "assets/blinx_ui/launcher_Spanish.png",
+      "group": "base_app",
+      "bytes": 995,
+      "sha256": "c85c10ea574b916a6e8386ea4b77d5cb7d3de3b3a1caa84d615acb46fa287e21"
+    },
+    {
+      "target": "assets/blinx_ui/logo.png",
+      "group": "base_app",
+      "bytes": 156488,
+      "sha256": "6b2df1fe01a9c918cbbfd759b3304521088083ec95e13fce38a8d38d7c85602f"
+    },
+    {
+      "target": "assets/blinx_ui/logo_pal.png",
+      "group": "frontend_overlay",
+      "bytes": 155981,
+      "sha256": "30637cd2b51d2b77fd49e707f4a2831b1bc0fd0709fc26af45d27351ce91ba12"
+    },
+    {
+      "target": "assets/blinx_ui/time.png",
+      "group": "base_app",
+      "bytes": 11142,
+      "sha256": "2d242c2857bd8d0857026f80491ee2b1b4b08cbb4fb0dd5236f06a901a559941"
+    },
+    {
+      "target": "assets/blinx_ui/touch_stick.png",
+      "group": "base_app",
+      "bytes": 2471,
+      "sha256": "715e4762b34063b7ae44c4d074d422f682ac7881bc07278ed58257fbe60ecf75"
+    },
+    {
+      "target": "assets/blinx_ui/touch_symbol_A.png",
+      "group": "base_app",
+      "bytes": 6972,
+      "sha256": "33dfb59931fc501f0a09db8513df1106fa9f231d1d796cd6fd137a543d95453d"
+    },
+    {
+      "target": "assets/blinx_ui/touch_symbol_B.png",
+      "group": "base_app",
+      "bytes": 5286,
+      "sha256": "35a51d8964996f62052bd20c666b1d77b50642388a7cdeaf88fd44b64116fa67"
+    },
+    {
+      "target": "assets/blinx_ui/touch_symbol_Back.png",
+      "group": "base_app",
+      "bytes": 6511,
+      "sha256": "f4ddf4494fc10d85c4105e32e8b83456d5f3c1de35be685ca6ddf1010e7f71ae"
+    },
+    {
+      "target": "assets/blinx_ui/touch_symbol_Black.png",
+      "group": "base_app",
+      "bytes": 18244,
+      "sha256": "2aac80b718a543b587cce990f5fc03306cf7ede675dcdade50323da17b9b9c74"
+    },
+    {
+      "target": "assets/blinx_ui/touch_symbol_Down.png",
+      "group": "base_app",
+      "bytes": 11753,
+      "sha256": "7fd61d6127fbe080a8a1d591089b46ba51cfdfb24a9572885a03787385c88dfb"
+    },
+    {
+      "target": "assets/blinx_ui/touch_symbol_LS.png",
+      "group": "base_app",
+      "bytes": 7136,
+      "sha256": "f7ba1531e65defaa44710a7bb163e81e5c3c10afdbdc1a8fe7bbd84e27e6d300"
+    },
+    {
+      "target": "assets/blinx_ui/touch_symbol_LT.png",
+      "group": "base_app",
+      "bytes": 2827,
+      "sha256": "da11c1b0b214ee338b4e3f7b6f13bc85693d766425ed91b2bef009083e2545fb"
+    },
+    {
+      "target": "assets/blinx_ui/touch_symbol_Left.png",
+      "group": "base_app",
+      "bytes": 11970,
+      "sha256": "b3c6a836dd2fbe44e211068ffea1eea415a269f2a7c6a27c6770f698cb8a7a5d"
+    },
+    {
+      "target": "assets/blinx_ui/touch_symbol_RS.png",
+      "group": "base_app",
+      "bytes": 8277,
+      "sha256": "b0bec23eb2c05b3c9d4168527523eebfad6ae960f691f688407f2a35733e22ef"
+    },
+    {
+      "target": "assets/blinx_ui/touch_symbol_RT.png",
+      "group": "base_app",
+      "bytes": 4973,
+      "sha256": "819eb1bfcce2f1c354f9c3b24aa36b7900dd553f91807dc4f7ea49d848c86230"
+    },
+    {
+      "target": "assets/blinx_ui/touch_symbol_Right.png",
+      "group": "base_app",
+      "bytes": 11987,
+      "sha256": "3c43ae4fa0ea61a4806761e6cb3e14b71ecda321e190049b13ceb39227c21577"
+    },
+    {
+      "target": "assets/blinx_ui/touch_symbol_Start.png",
+      "group": "base_app",
+      "bytes": 6499,
+      "sha256": "7979432200d90318ca0e28d2fac5169028dd5c54b0c57da22b806a10fd5d9449"
+    },
+    {
+      "target": "assets/blinx_ui/touch_symbol_Up.png",
+      "group": "base_app",
+      "bytes": 11669,
+      "sha256": "d77000889012878f62e9550bbef9434db8cc899c88b1a99f9f0973b170c9d2b9"
+    },
+    {
+      "target": "assets/blinx_ui/touch_symbol_White.png",
+      "group": "base_app",
+      "bytes": 15077,
+      "sha256": "ee6aec2fcba514a1170677b08fa6c617eb468562e87c2ba8c15affa87abff451"
+    },
+    {
+      "target": "assets/blinx_ui/touch_symbol_X.png",
+      "group": "base_app",
+      "bytes": 8538,
+      "sha256": "15dde2bbb0bc84778ca1d15d5a57d917a3790dd3ed69cfd36d71d4a6f71fe700"
+    },
+    {
+      "target": "assets/blinx_ui/touch_symbol_Y.png",
+      "group": "base_app",
+      "bytes": 5006,
+      "sha256": "6e128d7eb9a04b88f3ccacd4db7d50a8c1b72ed94ccfc69c3bb431b0e6f3c1fe"
+    },
+    {
+      "target": "assets/blinx_ui/touch_thumb.png",
+      "group": "base_app",
+      "bytes": 990,
+      "sha256": "2573b059712f48c2ff6a2d4b6658036a7133ea4c02bbfea02e596f532b2db16c"
+    },
+    {
+      "target": "assets/licenses/FEX.license.txt",
+      "group": "license_notice",
+      "bytes": 1094,
+      "sha256": "f34a779f56b36d22b20e1b990d23e583a6a7ca071331925fa46156441c77a1ee",
+      "public_source": "source/combined/runtime/provenance/upstream/licenses/FEX.license.txt"
+    },
+    {
+      "target": "assets/licenses/GPL-2.0.txt",
+      "group": "license_notice",
+      "bytes": 17880,
+      "sha256": "dd3ce02338c3a48abb6ba59b48809f7108a8bd242cb0cc8be90daafa30707c28",
+      "public_source": "source/combined/runtime/provenance/upstream/licenses/GPL-2.0.txt"
+    },
+    {
+      "target": "assets/licenses/LGPL-2.1.txt",
+      "group": "license_notice",
+      "bytes": 26415,
+      "sha256": "31c90ce76b6f5aab90a205851e71d5c27e31c0aa3d7017a4383b98a6fe3f1faa",
+      "public_source": "source/combined/runtime/provenance/upstream/licenses/LGPL-2.1.txt"
+    },
+    {
+      "target": "assets/licenses/SDL3.license.txt",
+      "group": "license_notice",
+      "bytes": 884,
+      "sha256": "1c040b8271b37e5076359f8fd54240e371114112924d2df81ef87c7d6a1dfdfd",
+      "public_source": "source/combined/runtime/provenance/upstream/licenses/SDL3.license.txt"
+    },
+    {
+      "target": "assets/licenses/SPIRV-Reflect.license.txt",
+      "group": "license_notice",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "public_source": "source/combined/runtime/provenance/upstream/licenses/SPIRV-Reflect.license.txt"
+    },
+    {
+      "target": "assets/licenses/SoftFloat-3e.license.txt",
+      "group": "license_notice",
+      "bytes": 1540,
+      "sha256": "3ea5fb72f15cfc8d36a9559dbc0b027aa7fe7789b5a1cd894c83714e3d494680",
+      "public_source": "source/combined/runtime/provenance/upstream/licenses/SoftFloat-3e.license.txt"
+    },
+    {
+      "target": "assets/licenses/VulkanMemoryAllocator.license.txt",
+      "group": "license_notice",
+      "bytes": 1099,
+      "sha256": "f56ab0392925231e34dd008a7670bb5c5ead490203bc9e125de3106fef642a27",
+      "public_source": "source/combined/runtime/provenance/upstream/licenses/VulkanMemoryAllocator.license.txt"
+    },
+    {
+      "target": "assets/licenses/adpcm-xq.license.txt",
+      "group": "license_notice",
+      "bytes": 1625,
+      "sha256": "034041463fae701573c94fe56ebdc3cdaf5f7eb1e8de12730eb2de4bb15c892c",
+      "public_source": "source/combined/runtime/provenance/upstream/licenses/adpcm-xq.license.txt"
+    },
+    {
+      "target": "assets/licenses/adrenotools.license.txt",
+      "group": "license_notice",
+      "bytes": 1299,
+      "sha256": "7ea796e199e46093c2f5c391697bce5abeacd02b7216aa0a84e5839afb5584f3",
+      "public_source": "source/combined/runtime/provenance/upstream/licenses/adrenotools.license.txt"
+    },
+    {
+      "target": "assets/licenses/blinx-runtime-NOTICE.txt",
+      "group": "license_notice",
+      "bytes": 1466,
+      "sha256": "650f686d36c389545e667288961b42bb1ebea5055338d868b7092d6814f152ea",
+      "public_source": "source/combined/runtime/NOTICE.txt"
+    },
+    {
+      "target": "assets/licenses/cephes.license.txt",
+      "group": "license_notice",
+      "bytes": 4754,
+      "sha256": "edf1440b625e6d434a986cdb535c702001afab8959d94ce6275441a58cfd0ebb",
+      "public_source": "source/combined/runtime/provenance/upstream/licenses/cephes.license.txt"
+    },
+    {
+      "target": "assets/licenses/fmt.license.txt",
+      "group": "license_notice",
+      "bytes": 1094,
+      "sha256": "a65fcc5a1095fc33cc37e4fff69366e49d7e92f613558a2b95ed1b70e33758b4",
+      "public_source": "source/combined/runtime/provenance/upstream/licenses/fmt.license.txt"
+    },
+    {
+      "target": "assets/licenses/glslang.license.txt",
+      "group": "license_notice",
+      "bytes": 54705,
+      "sha256": "adb783e734e906d1f46db5df29991dbde84bdb0ceab502ac2febb44fe3c2b5f4",
+      "public_source": "source/combined/runtime/provenance/upstream/licenses/glslang.license.txt"
+    },
+    {
+      "target": "assets/licenses/hakux/COPYING",
+      "group": "license_notice",
+      "bytes": 35147,
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+      "public_source": "source/combined/runtime/provenance/upstream/COPYING"
+    },
+    {
+      "target": "assets/licenses/hakux/LICENSE",
+      "group": "license_notice",
+      "bytes": 2443,
+      "sha256": "bcdb0da4a1742895011ba6f50bb7e3e0d10c72961490bc188d419964eae65b2b",
+      "public_source": "source/combined/runtime/provenance/upstream/LICENSE"
+    },
+    {
+      "target": "assets/licenses/nv2a_vsh_cpu.license.txt",
+      "group": "license_notice",
+      "bytes": 1211,
+      "sha256": "6b0382b16279f26ff69014300541967a356a666eb0b91b422f6862f6b7dad17e",
+      "public_source": "source/combined/runtime/provenance/upstream/licenses/nv2a_vsh_cpu.license.txt"
+    },
+    {
+      "target": "assets/licenses/range-v3.license.txt",
+      "group": "license_notice",
+      "bytes": 7233,
+      "sha256": "2b74ee37dd1a90b2b385534b7dbc171938409bda468673a123ff25302c9c5739",
+      "public_source": "source/combined/runtime/provenance/upstream/licenses/range-v3.license.txt"
+    },
+    {
+      "target": "assets/licenses/rpmalloc.license.txt",
+      "group": "license_notice",
+      "bytes": 606,
+      "sha256": "9fdc653aacc736bef0cd12854f4a8d94f703ec5603fb5dca1be945b7f679918c",
+      "public_source": "source/combined/runtime/provenance/upstream/licenses/rpmalloc.license.txt"
+    },
+    {
+      "target": "assets/licenses/snapdragon-gsr.license.txt",
+      "group": "license_notice",
+      "bytes": 1556,
+      "sha256": "bc496633d3db8c6ca1362216ec382d361b69c7d5518acd6bbfd91503febfb3ef",
+      "public_source": "source/combined/runtime/provenance/upstream/licenses/snapdragon-gsr.license.txt"
+    },
+    {
+      "target": "assets/licenses/unordered_dense.license.txt",
+      "group": "license_notice",
+      "bytes": 1078,
+      "sha256": "4f5a62734899ec0ba85d3e8264a7ed1fcb4bcb8f0b4359c0afd627b6314ae599",
+      "public_source": "source/combined/runtime/provenance/upstream/licenses/unordered_dense.license.txt"
+    },
+    {
+      "target": "assets/licenses/volk.license.txt",
+      "group": "license_notice",
+      "bytes": 1066,
+      "sha256": "e85b35831f01da6aa8c029f0a06a0468be143534babe9014e37ee03bf078bf36",
+      "public_source": "source/combined/runtime/provenance/upstream/licenses/volk.license.txt"
+    },
+    {
+      "target": "assets/licenses/xxHash.license.txt",
+      "group": "license_notice",
+      "bytes": 1389,
+      "sha256": "6ffedbc0f7878612d2b23589f1ff2ab15633e1df7963a5d9fc750ec5500c7e7a",
+      "public_source": "source/combined/runtime/provenance/upstream/licenses/xxHash.license.txt"
+    },
+    {
+      "target": "assets/menu_music/Bremix.mp3",
+      "group": "menu_music",
+      "bytes": 2586353,
+      "sha256": "e4509ff7f4b83ef8c53ebc93b876255364e25274870ab8d4167b098b37436dde"
+    },
+    {
+      "target": "assets/menu_music/boss_E_from_5s.flac",
+      "group": "menu_music",
+      "bytes": 9145450,
+      "sha256": "4021fda62be280756200282189c7d194d3d63c081802ea8a851a6d6d02121cad"
+    },
+    {
+      "target": "assets/monsters/index.json",
+      "group": "static_carousel",
+      "bytes": 5324,
+      "sha256": "6d19a64472bb9e41504e78d8335e2ab761763d0f02b1c9d28d406deeae902d6b"
+    },
+    {
+      "target": "assets/monsters/model_0101.png",
+      "group": "static_carousel",
+      "bytes": 99871,
+      "sha256": "4f3cbe96395c97fe3719983ec4b0a477962b5102b4c9b41e963efbe1f5bc20da"
+    },
+    {
+      "target": "assets/monsters/model_0102.png",
+      "group": "static_carousel",
+      "bytes": 102767,
+      "sha256": "7857418b4f6ed80ad112541974b4093f1820022e519e5956fd9bb6689d978c42"
+    },
+    {
+      "target": "assets/monsters/model_0103.png",
+      "group": "static_carousel",
+      "bytes": 103988,
+      "sha256": "3f2513574d194938f94c56f4cf38cd057fc6dfd955ccb572cd7c49048c524fa7"
+    },
+    {
+      "target": "assets/monsters/model_0104.png",
+      "group": "static_carousel",
+      "bytes": 86444,
+      "sha256": "ae26d7131908506a475b3519e5df24207a2d7aad2df5ccb2eb054d13c6981493"
+    },
+    {
+      "target": "assets/monsters/model_0105.png",
+      "group": "static_carousel",
+      "bytes": 54164,
+      "sha256": "dc7fe8004327794e6939107b7656554a739a6c9783e8e2c15490f1a67ea8d56f"
+    },
+    {
+      "target": "assets/monsters/model_0108.png",
+      "group": "static_carousel",
+      "bytes": 59011,
+      "sha256": "0cbdd56896d22e24d964f0d06d1ab675a648b85852cf070de763b2de5509efba"
+    },
+    {
+      "target": "assets/monsters/model_0181.png",
+      "group": "static_carousel",
+      "bytes": 134739,
+      "sha256": "ef428a0ab8d14b57a46f0e600c076862eaa56112def8b5ada0a5daa42fec209a"
+    },
+    {
+      "target": "assets/monsters/model_0182.png",
+      "group": "static_carousel",
+      "bytes": 111721,
+      "sha256": "7f781bd3187dee12a49f129d97f5525e5a8e5a3f31a9557ffbda480ae796f4f0"
+    },
+    {
+      "target": "assets/monsters/model_0183.png",
+      "group": "static_carousel",
+      "bytes": 62269,
+      "sha256": "7f9ab4c2fbfcc0a6bf76247f00a12f8b8dc500b03e77c84a1480158176349934"
+    },
+    {
+      "target": "assets/monsters/model_0184.png",
+      "group": "static_carousel",
+      "bytes": 144514,
+      "sha256": "516cd8c640d235626c99970946dde2d14107abc5ea0559424d3cecf3fe4d7fa7"
+    },
+    {
+      "target": "assets/monsters/model_0185.png",
+      "group": "static_carousel",
+      "bytes": 94863,
+      "sha256": "3c1943c289140cae2e6d58da5c115c03cca7d4a770730477114e77482a99a8ee"
+    },
+    {
+      "target": "assets/monsters/model_0186.png",
+      "group": "static_carousel",
+      "bytes": 99600,
+      "sha256": "6840c2df37fb4daca41414f2b066944d0aa3ca8173ef5a1508052fa9b3444d94"
+    },
+    {
+      "target": "assets/monsters/model_0188.png",
+      "group": "static_carousel",
+      "bytes": 69876,
+      "sha256": "e24e688683955e2701830724808a89aea48105290a4df33d1bddf9fc99769087"
+    },
+    {
+      "target": "assets/monsters/model_0189.png",
+      "group": "static_carousel",
+      "bytes": 141483,
+      "sha256": "56f7dbb452b7089d2279d6bfbc1262990267bfde8e3189f178d3aea8fcde7b68"
+    },
+    {
+      "target": "assets/monsters/model_018a.png",
+      "group": "static_carousel",
+      "bytes": 133167,
+      "sha256": "4be38978311b10a08a7b05b5561aa18f5015d8f04ae847c59f1f52e62cdb0bed"
+    },
+    {
+      "target": "assets/monsters/model_0201.png",
+      "group": "static_carousel",
+      "bytes": 96590,
+      "sha256": "a6fcd533b546d992744bb83ab8e93aec2790219a12e9f512fed6e368df407c28"
+    },
+    {
+      "target": "assets/monsters/model_0202.png",
+      "group": "static_carousel",
+      "bytes": 101881,
+      "sha256": "89ec31c455e0f245631068f1d69b3eabf5aaf1ae5e5a99301f55db88b0fe98b2"
+    },
+    {
+      "target": "assets/monsters/model_0203.png",
+      "group": "static_carousel",
+      "bytes": 100761,
+      "sha256": "8d35032c58f72d22d44164f3e4921dccc051a30265b3158540b3f1e659030c84"
+    },
+    {
+      "target": "assets/monsters/model_0204.png",
+      "group": "static_carousel",
+      "bytes": 87524,
+      "sha256": "411d32f0075c85a128061b7cf493603818b7e5a3f73314f25b35750b26bee42d"
+    },
+    {
+      "target": "assets/monsters/model_0205.png",
+      "group": "static_carousel",
+      "bytes": 51097,
+      "sha256": "67332d2d47b5debdee69296200537580226682b02cedff9952ef959f30bd2b57"
+    },
+    {
+      "target": "assets/monsters/model_0206.png",
+      "group": "static_carousel",
+      "bytes": 106056,
+      "sha256": "fc3e5f48d85e9fefce4d0f2236639d1c7a89b9008479295a139438a4c25787da"
+    },
+    {
+      "target": "assets/monsters/model_0208.png",
+      "group": "static_carousel",
+      "bytes": 60209,
+      "sha256": "2146510d0927c6da0c23522df215da460daf36354e28e6d42f910f7b3127df66"
+    },
+    {
+      "target": "assets/monsters/model_020a.png",
+      "group": "static_carousel",
+      "bytes": 60693,
+      "sha256": "440c3db32fbfa4a9615be816509190a52b2c84bea4376f15b033270f162160c0"
+    },
+    {
+      "target": "assets/monsters/model_0301.png",
+      "group": "static_carousel",
+      "bytes": 98639,
+      "sha256": "5f92e48980504949a4782d9d892bd81b6b84dbb00395b50267323edb9ed6d8b6"
+    },
+    {
+      "target": "assets/monsters/model_0303.png",
+      "group": "static_carousel",
+      "bytes": 100949,
+      "sha256": "3963c1bf810001bb1dae1fdc660d68fb699f0afc958e146d3b535ce23dc31912"
+    },
+    {
+      "target": "assets/monsters/model_0305.png",
+      "group": "static_carousel",
+      "bytes": 60234,
+      "sha256": "337c4812938b0036c71c43389d7fa1c5fd1891a8af1aef2fe10fe8af4fb115b9"
+    },
+    {
+      "target": "assets/monsters/model_0307.png",
+      "group": "static_carousel",
+      "bytes": 115221,
+      "sha256": "e25ff14edda38af4f21329baf3162e3a2e19d1dc7b70d8eb2101d3a96f5110c6"
+    },
+    {
+      "target": "assets/monsters/model_0309.png",
+      "group": "static_carousel",
+      "bytes": 110876,
+      "sha256": "baa0cb5316baa2bea15d15a08c05f3c391e38e7e0b56e18de2e3093c2e6a97eb"
+    },
+    {
+      "target": "assets/monsters/model_030c.png",
+      "group": "static_carousel",
+      "bytes": 61751,
+      "sha256": "f00b9ed90747b04c98547740491b1199aaeea4c138eb746243e964a90b1effcb"
+    },
+    {
+      "target": "assets/monsters/model_0405.png",
+      "group": "static_carousel",
+      "bytes": 66424,
+      "sha256": "5c27fd753824ef1225c156a69651cc8b93e09f1329df20fa2fd015ad611257f9"
+    },
+    {
+      "target": "assets/monsters/model_040b.png",
+      "group": "static_carousel",
+      "bytes": 261789,
+      "sha256": "cfb33e9816bb18a3d9822644c1de37e423dfdbf8d2ecdeceb8094454133490d4"
+    },
+    {
+      "target": "assets/monsters/model_050c.png",
+      "group": "static_carousel",
+      "bytes": 63630,
+      "sha256": "ab8a43c60d3ec762cde0eca887ab6b8e6088bbff7fecff481bea327fda044831"
+    },
+    {
+      "target": "assets/monsters_live/carousel.js",
+      "group": "live_carousel",
+      "bytes": 16915,
+      "sha256": "cb1d4d0ecc9e9055a7fb3f481cf71856cbe6783ce971065b5decdba8f8a07aac",
+      "public_source": "source/combined/carousel_live/assets/monsters_live/carousel.js"
+    },
+    {
+      "target": "assets/monsters_live/index.html",
+      "group": "live_carousel",
+      "bytes": 390,
+      "sha256": "483e6adb6afb32fe399a640205935d5a366d934f3a6b2ca4b6ee6ecd09fbb146",
+      "public_source": "source/combined/carousel_live/assets/monsters_live/index.html"
+    },
+    {
+      "target": "assets/monsters_live/index.json",
+      "group": "live_carousel",
+      "bytes": 993738,
+      "sha256": "05d7cbfb0c59b306216f0e7f8b311bde90e808d88e3784fea8d6cd9b0000ba43"
+    },
+    {
+      "target": "assets/monsters_live/meshes/00d94e18.bin",
+      "group": "live_carousel",
+      "bytes": 260244,
+      "sha256": "bd35e3b8f19c6c96029ed18d59898c6972e5a17be508c45c3e1e5b116cabe7bb"
+    },
+    {
+      "target": "assets/monsters_live/meshes/00d94e18.json",
+      "group": "live_carousel",
+      "bytes": 70603,
+      "sha256": "54d936fcd56fc5af00c8ccf4465bc42ec3a0d647905bfd980a9ba3c198079b5d"
+    },
+    {
+      "target": "assets/monsters_live/meshes/00e7bd68.bin",
+      "group": "live_carousel",
+      "bytes": 543048,
+      "sha256": "af48320cbe33e09accf2fc2bc905d7864f028dc330e09ecdb93eb97182f28028"
+    },
+    {
+      "target": "assets/monsters_live/meshes/00e7bd68.json",
+      "group": "live_carousel",
+      "bytes": 218473,
+      "sha256": "8f33a7a69d8393f469744d04e50208d3e40257f73904a30208c2c567bf1a7adc"
+    },
+    {
+      "target": "assets/monsters_live/meshes/00fac5c8.bin",
+      "group": "live_carousel",
+      "bytes": 286008,
+      "sha256": "5a92f5946e4d002383dbac637bf72fe6361503a5b1d808ca7d2b766a6baf26fa"
+    },
+    {
+      "target": "assets/monsters_live/meshes/00fac5c8.json",
+      "group": "live_carousel",
+      "bytes": 98289,
+      "sha256": "dc2b3b9ce04e7a491856a3f1b139ed37bbeb614aa6fe5ab5c0990c6ee34522d9"
+    },
+    {
+      "target": "assets/monsters_live/meshes/010a55b0.bin",
+      "group": "live_carousel",
+      "bytes": 299352,
+      "sha256": "88e29cbfd79d0912921e41f105323c5abade61194061efe1d34c0f667d7f835d"
+    },
+    {
+      "target": "assets/monsters_live/meshes/010a55b0.json",
+      "group": "live_carousel",
+      "bytes": 99281,
+      "sha256": "b0bf62c97175b530b393da277923d64d3f7564d2f4f9fa389fef6304160725ef"
+    },
+    {
+      "target": "assets/monsters_live/meshes/0117060c.bin",
+      "group": "live_carousel",
+      "bytes": 258840,
+      "sha256": "533481de01f2d6f0dc3959db6dd22544695bd475c0ecc1ac4a15ab05f67a2ba0"
+    },
+    {
+      "target": "assets/monsters_live/meshes/0117060c.json",
+      "group": "live_carousel",
+      "bytes": 87523,
+      "sha256": "0958025936fb6b9cc5813390b4fb361eef30b0b05c619ac737167ffcdbf5ceb1"
+    },
+    {
+      "target": "assets/monsters_live/meshes/011e08f4.bin",
+      "group": "live_carousel",
+      "bytes": 289452,
+      "sha256": "5039fba1dbb2bd80c72ca202093d945a100e70188a51359317a14ce7ab997df3"
+    },
+    {
+      "target": "assets/monsters_live/meshes/011e08f4.json",
+      "group": "live_carousel",
+      "bytes": 77762,
+      "sha256": "9177c354d9d3722dd6485108508d736dcef27aa6d7790f070c83d8dada01a2e2"
+    },
+    {
+      "target": "assets/monsters_live/meshes/01494028.bin",
+      "group": "live_carousel",
+      "bytes": 112032,
+      "sha256": "be5e0a5621fd8516e6ddf6d3125f4d0adf05980c9adfde07ac4611bfee78e533"
+    },
+    {
+      "target": "assets/monsters_live/meshes/01494028.json",
+      "group": "live_carousel",
+      "bytes": 32688,
+      "sha256": "c0f10e3d42342aae3843ac41a9b8c82ecc8536405323157dc81f5c8123051a86"
+    },
+    {
+      "target": "assets/monsters_live/meshes/014aa6a4.bin",
+      "group": "live_carousel",
+      "bytes": 214740,
+      "sha256": "94a3320f7a3088052d5bbbe7d650c8afc8df2d2fae5afa6f14c6b843a4c85b05"
+    },
+    {
+      "target": "assets/monsters_live/meshes/014aa6a4.json",
+      "group": "live_carousel",
+      "bytes": 74355,
+      "sha256": "bf766fdd8ed2fe62624b6fb76ed4b253077c1e55cf2ff0663076a739ad1d6abe"
+    },
+    {
+      "target": "assets/monsters_live/meshes/014ca9b0.bin",
+      "group": "live_carousel",
+      "bytes": 241224,
+      "sha256": "9cad614dcafcbd8f0c98ec95a5a86dd5a07248a2256b402176a19e4e42afb014"
+    },
+    {
+      "target": "assets/monsters_live/meshes/014ca9b0.json",
+      "group": "live_carousel",
+      "bytes": 83082,
+      "sha256": "346c88bc623879a67597e8ebcd97816dafc491caeacbd6f431d6c91b6713d49c"
+    },
+    {
+      "target": "assets/monsters_live/meshes/015779dc.bin",
+      "group": "live_carousel",
+      "bytes": 214632,
+      "sha256": "ee73e1805988ae4413f0e849bf18eb1c9eb80ff17d5f38225073f6ec250cbd43"
+    },
+    {
+      "target": "assets/monsters_live/meshes/015779dc.json",
+      "group": "live_carousel",
+      "bytes": 65904,
+      "sha256": "a4138fc3ece0a12cb0041eae99bb20c2d5249025e4d8cd91d2cbac9fcc0eb0c5"
+    },
+    {
+      "target": "assets/monsters_live/meshes/0159b8ac.bin",
+      "group": "live_carousel",
+      "bytes": 173832,
+      "sha256": "17b1c316dce1e1d3c957f89c83ea64c0a238851b81badff3e2f9d01102bf7fec"
+    },
+    {
+      "target": "assets/monsters_live/meshes/0159b8ac.json",
+      "group": "live_carousel",
+      "bytes": 45637,
+      "sha256": "82de197eaab682c9f20ce90d08dc2e0e35f856fb70f5b115b63f3a6beb1cbaa3"
+    },
+    {
+      "target": "assets/monsters_live/meshes/015bc20c.bin",
+      "group": "live_carousel",
+      "bytes": 206640,
+      "sha256": "66c6bbc97ab82a62de26977b5b59ca83c8ed92c623df77bb9aaf4b1077cd1a4c"
+    },
+    {
+      "target": "assets/monsters_live/meshes/015bc20c.json",
+      "group": "live_carousel",
+      "bytes": 74259,
+      "sha256": "47bd289a6a930b67b084cd2d622c3c6192cd0a14616ff758fbac9914deedc3d5"
+    },
+    {
+      "target": "assets/monsters_live/meshes/0163ad70.bin",
+      "group": "live_carousel",
+      "bytes": 48168,
+      "sha256": "fe254b91e0cefa720c596bf6ee5ed249f01482b9c594e3a282411721ad646de0"
+    },
+    {
+      "target": "assets/monsters_live/meshes/0163ad70.json",
+      "group": "live_carousel",
+      "bytes": 12747,
+      "sha256": "992d94d384bfe896d8a7a10a48dd655945e6029863b2f99944a8f9f94eb380ea"
+    },
+    {
+      "target": "assets/monsters_live/meshes/0164feb4.bin",
+      "group": "live_carousel",
+      "bytes": 191832,
+      "sha256": "951b754ef517986c65e5c0bef4f05dc99decacdf19a5ba22699556c374c84bbf"
+    },
+    {
+      "target": "assets/monsters_live/meshes/0164feb4.json",
+      "group": "live_carousel",
+      "bytes": 57869,
+      "sha256": "b1f7ae63c5485df487e176caf689eb078f5aaebc8e7b3a7516fadecb883587d4"
+    },
+    {
+      "target": "assets/monsters_live/meshes/01680338.bin",
+      "group": "live_carousel",
+      "bytes": 232008,
+      "sha256": "cc1c33ace297fea1bea9a4bc275a3bc06f368bb71b930ea07c986834e94be0f5"
+    },
+    {
+      "target": "assets/monsters_live/meshes/01680338.json",
+      "group": "live_carousel",
+      "bytes": 77283,
+      "sha256": "6b3e1e491490451ad8de8178bedb49616d82c583cc8956d2d47a6f40e04b4452"
+    },
+    {
+      "target": "assets/monsters_live/meshes/01698c48.bin",
+      "group": "live_carousel",
+      "bytes": 181104,
+      "sha256": "cd5f13921b586274585259e38c8e159bc9ceb7f869c078b1271369eb2f65a60e"
+    },
+    {
+      "target": "assets/monsters_live/meshes/01698c48.json",
+      "group": "live_carousel",
+      "bytes": 66048,
+      "sha256": "fae69e00422a60e468deb5dd7b007400ec709061d8d5bf408b8d078f717c95e3"
+    },
+    {
+      "target": "assets/monsters_live/meshes/016b1744.bin",
+      "group": "live_carousel",
+      "bytes": 100416,
+      "sha256": "aaeb0ceaa0c250d013a2f871e044e8500327a4c9694d8288a4527edc31444d5b"
+    },
+    {
+      "target": "assets/monsters_live/meshes/016b1744.json",
+      "group": "live_carousel",
+      "bytes": 27982,
+      "sha256": "19597f6414854c9b890a934bb52f9dde10ab84255aa35e1d666f6eb7f473562d"
+    },
+    {
+      "target": "assets/monsters_live/meshes/016e57c8.bin",
+      "group": "live_carousel",
+      "bytes": 252240,
+      "sha256": "f65b39632e4c9a9e6a645dd0abd6e608eb2b2ff35bffaa6c26ea69307f20c2ca"
+    },
+    {
+      "target": "assets/monsters_live/meshes/016e57c8.json",
+      "group": "live_carousel",
+      "bytes": 81745,
+      "sha256": "7ebe5610a4f6bb5517f84a1f5d18eccef78683ae5db9dad8785406508bd4724b"
+    },
+    {
+      "target": "assets/monsters_live/shaders/preview.frag",
+      "group": "live_carousel",
+      "bytes": 1539,
+      "sha256": "8c657087fedc56cf3f6c4fa1795a9efd034e71cec32c403ead212168119e0d40"
+    },
+    {
+      "target": "assets/monsters_live/shaders/preview.vert",
+      "group": "live_carousel",
+      "bytes": 297,
+      "sha256": "edcdfd8b3ed070487c1b929de5555bb49d3eef928610882964eafa23e628a518"
+    },
+    {
+      "target": "assets/monsters_live/style.css",
+      "group": "live_carousel",
+      "bytes": 439,
+      "sha256": "f336106ddd4cf9573d65154cad4f9621d0e534c5985e5b60ce7d1e2061507fc6",
+      "public_source": "source/combined/carousel_live/assets/monsters_live/style.css"
+    },
+    {
+      "target": "assets/monsters_live/textures/h_nabe_2garakuta.png",
+      "group": "live_carousel",
+      "bytes": 26088,
+      "sha256": "ffcfffc73cb3ec581388170269368ce8991d913328ee6472f7a9221aba01b4ee"
+    },
+    {
+      "target": "assets/monsters_live/textures/h_nabe_3garakuta.png",
+      "group": "live_carousel",
+      "bytes": 26170,
+      "sha256": "5ad6be659356f6883808f669a4540d98cba090a4d75c5840fb0248380647d9d9"
+    },
+    {
+      "target": "assets/monsters_live/textures/h_nabe_4garakuta.png",
+      "group": "live_carousel",
+      "bytes": 25893,
+      "sha256": "eab54fe5f337d38952e3406e12d7c93d8ad778c48a133abb33e8a103149cef88"
+    },
+    {
+      "target": "assets/monsters_live/textures/i_e_Moledge_p.png",
+      "group": "live_carousel",
+      "bytes": 82717,
+      "sha256": "59638730f700ded4092ab802c0f6d0a355bd1acf23c0cafd11f0e961e3e0e2a3"
+    },
+    {
+      "target": "assets/monsters_live/textures/i_e_clock000.png",
+      "group": "live_carousel",
+      "bytes": 71983,
+      "sha256": "2fdd7a2c4733c43aa9c087cb3ac64b51dda6d52fd5c48acaacc339d5ac56f4a6"
+    },
+    {
+      "target": "assets/monsters_live/textures/i_e_fire_dragon.png",
+      "group": "live_carousel",
+      "bytes": 65478,
+      "sha256": "2db2bc89f66d84212afe1993d7258ad7ab1861280c14a9dd2b9c6b0867442f06"
+    },
+    {
+      "target": "assets/monsters_live/textures/i_e_fire_dragon_b.png",
+      "group": "live_carousel",
+      "bytes": 65550,
+      "sha256": "3d024886351b1063d5bf13329d9855a553ef0dbcc97844b5155890be4ef19d47"
+    },
+    {
+      "target": "assets/monsters_live/textures/i_e_flash00a.png",
+      "group": "live_carousel",
+      "bytes": 3660,
+      "sha256": "76cd4127eb9758b8e6c0592565aa3c924bf99b98f5e4b3030652114b9bf21400"
+    },
+    {
+      "target": "assets/monsters_live/textures/i_e_guarders.png",
+      "group": "live_carousel",
+      "bytes": 54202,
+      "sha256": "d0f782075be8004e09e084cfcce2c0b2713065df66fe08109784b4a517f29d6b"
+    },
+    {
+      "target": "assets/monsters_live/textures/i_e_guarders_b.png",
+      "group": "live_carousel",
+      "bytes": 59243,
+      "sha256": "135f0dc93cc6c9518d8bef28da5d7730ab706fa2c5cfc1eb23e10ed526931c84"
+    },
+    {
+      "target": "assets/monsters_live/textures/i_e_iceturtle.png",
+      "group": "live_carousel",
+      "bytes": 72998,
+      "sha256": "1f4443fde275565b939e364d790d702b864d6f7fed69e2aa9ba33ad826363628"
+    },
+    {
+      "target": "assets/monsters_live/textures/i_e_jgolem01.png",
+      "group": "live_carousel",
+      "bytes": 280520,
+      "sha256": "a0f88e13fcca8365f86afd079467c73283b5a94e244bb90054cc963700103e4b"
+    },
+    {
+      "target": "assets/monsters_live/textures/i_e_jgolem02.png",
+      "group": "live_carousel",
+      "bytes": 309645,
+      "sha256": "f2592383bc7c5892c340a9f77f646e45d1bd23f101cae47bf720738627c2bdfe"
+    },
+    {
+      "target": "assets/monsters_live/textures/i_e_jgolem03.png",
+      "group": "live_carousel",
+      "bytes": 83430,
+      "sha256": "94f3dec633c70fbb217d3f1bfc8cf5a8ff154795d92e59f18a6c479a341de572"
+    },
+    {
+      "target": "assets/monsters_live/textures/i_e_jgolem_body01.png",
+      "group": "live_carousel",
+      "bytes": 5444,
+      "sha256": "c52bfc1696f7c0696fb201b0f45ed6102667ba7f595a453f6989a210e631096e"
+    },
+    {
+      "target": "assets/monsters_live/textures/i_e_jgolem_body02.png",
+      "group": "live_carousel",
+      "bytes": 5388,
+      "sha256": "bf874c0487e27d23e1d0b629a8a867b83158023359dcffaa484c4394ce01c192"
+    },
+    {
+      "target": "assets/monsters_live/textures/i_e_jgolem_body03.png",
+      "group": "live_carousel",
+      "bytes": 5363,
+      "sha256": "4d8523071c3474ebeaf828ee88d938a642f9d7488d232068dccaff8c676992d7"
+    },
+    {
+      "target": "assets/monsters_live/textures/i_e_kerogon.png",
+      "group": "live_carousel",
+      "bytes": 261038,
+      "sha256": "d555152c0bdfa583d52e16fecaac553e959a8665b8c11d74f1120ada0055a19b"
+    },
+    {
+      "target": "assets/monsters_live/textures/i_e_kerogon_b.png",
+      "group": "live_carousel",
+      "bytes": 280171,
+      "sha256": "4b86645a971006d6df88e756ffacd6b8a4133623abbbe56db4f762f27c8bc26a"
+    },
+    {
+      "target": "assets/monsters_live/textures/i_e_keroppa.png",
+      "group": "live_carousel",
+      "bytes": 208656,
+      "sha256": "3cfc9926684ac9e15a34885ae301583ea0d7caa59c9cb49186d022e71fe84250"
+    },
+    {
+      "target": "assets/monsters_live/textures/i_e_keroppa_b.png",
+      "group": "live_carousel",
+      "bytes": 221855,
+      "sha256": "d47ae3b0ac584a206ca1fbb0f61182050e50eba8756674bd3420c0697e9c5465"
+    },
+    {
+      "target": "assets/monsters_live/textures/i_e_moler.png",
+      "group": "live_carousel",
+      "bytes": 253434,
+      "sha256": "349946a41c886275e76638ca1f11b8cb899936ce05edd8ecd48db03e9ebc3d97"
+    },
+    {
+      "target": "assets/monsters_live/textures/i_e_moler_b.png",
+      "group": "live_carousel",
+      "bytes": 272091,
+      "sha256": "29d8b03feb563b8a872b48492643f86a80b79a8d7543ecdff54571fd8ef00ff2"
+    },
+    {
+      "target": "assets/monsters_live/textures/i_e_octballoon.png",
+      "group": "live_carousel",
+      "bytes": 50299,
+      "sha256": "102854c4f45a4cbd3a6397a8ef4439b5a6b4a23559624d8b9f21f8d9bac061ea"
+    },
+    {
+      "target": "assets/monsters_live/textures/i_e_octballoon_b.png",
+      "group": "live_carousel",
+      "bytes": 50557,
+      "sha256": "03c0f17713e494eb994b6147971e166522068852c2a3cc3b96d93652ee15a36e"
+    },
+    {
+      "target": "assets/monsters_live/textures/i_e_phenomena_a.png",
+      "group": "live_carousel",
+      "bytes": 363662,
+      "sha256": "de5554ba9ba2e6a52e92b7c1a8785b3c172edc3ebf713277ab6d7d7524096d1f"
+    },
+    {
+      "target": "assets/monsters_live/textures/i_e_phenomena_b.png",
+      "group": "live_carousel",
+      "bytes": 417146,
+      "sha256": "1d0d38bcd48ec06459ef86e2af8f42644e635873475a36e7711e20fb0c209120"
+    },
+    {
+      "target": "assets/monsters_live/textures/i_e_taifon.png",
+      "group": "live_carousel",
+      "bytes": 65848,
+      "sha256": "048b35ffe4d87873bb127ad30cf65d65c006961a540ba6c99837625714cd45ef"
+    },
+    {
+      "target": "assets/monsters_live/textures/i_e_togetama.png",
+      "group": "live_carousel",
+      "bytes": 50234,
+      "sha256": "487c33e53fbb7d03ceb061642d1567629c65a4577bf66593303a69337996a581"
+    },
+    {
+      "target": "assets/monsters_live/textures/i_e_togetama_b.png",
+      "group": "live_carousel",
+      "bytes": 55580,
+      "sha256": "e656eec1449811e4f6433adde8d3e709d6458ec9b13b1c7206718c6afde65123"
+    },
+    {
+      "target": "assets/monsters_live/textures/i_e_togetama_p.png",
+      "group": "live_carousel",
+      "bytes": 69057,
+      "sha256": "9a1f8a0c7227a2cc9df3b5956053d2c827e5e7b953976e3e32f9f87fe11be189"
+    },
+    {
+      "target": "assets/monsters_live/textures/i_e_togetama_y.png",
+      "group": "live_carousel",
+      "bytes": 63231,
+      "sha256": "2293740f5946918ca38c16bedc2239cca47a83008ff0521f5240023e91e62360"
+    },
+    {
+      "target": "assets/monsters_live/textures/i_e_tokitama_g.png",
+      "group": "live_carousel",
+      "bytes": 67767,
+      "sha256": "f93256417d0279bc529712f735a79f58c4b869ac2f191bdc35dd4a43e100acaf"
+    },
+    {
+      "target": "assets/monsters_live/textures/i_e_tokitama_p.png",
+      "group": "live_carousel",
+      "bytes": 66963,
+      "sha256": "134651093bbfbadcdc3910fbdafbdb234f7a03856dffba667a74185318f3a1fa"
+    },
+    {
+      "target": "assets/monsters_live/textures/i_e_tokitama_y.png",
+      "group": "live_carousel",
+      "bytes": 64704,
+      "sha256": "ecfb628cdbe5c17239ae682a104607c5a73ccc98ee6b2015440a281838ad882d"
+    },
+    {
+      "target": "assets/monsters_live/textures/i_e_turtle_fragment.png",
+      "group": "live_carousel",
+      "bytes": 18799,
+      "sha256": "017f0aee36d50f3300762ec822afb356578b100bf8cb113571988d58ee1ec96e"
+    },
+    {
+      "target": "assets/monsters_live/textures/i_e_waterdrgshell00a.png",
+      "group": "live_carousel",
+      "bytes": 104784,
+      "sha256": "88bda02cdcae7ff4ed5bbb70d30dd6e89ea4ab83a5206c88ba73f5ec1e201e9b"
+    },
+    {
+      "target": "assets/monsters_live/textures/i_hikari.png",
+      "group": "live_carousel",
+      "bytes": 1372,
+      "sha256": "c951ad0651a88536bae6456c6d962752f7730a77ae7cdb5b340786554cf00abb"
+    },
+    {
+      "target": "assets/monsters_live/textures/w_e_body1.png",
+      "group": "live_carousel",
+      "bytes": 497,
+      "sha256": "9f668135933c53498a3f936455915985e5016dc41c7dbfdff7041b0f7f9a3371"
+    },
+    {
+      "target": "assets/monsters_live/textures/w_e_body1_y.png",
+      "group": "live_carousel",
+      "bytes": 395,
+      "sha256": "072fcc059691bbf5b4e5d7e5c27cdd8a87fe85f284906a413c3bd090e93448af"
+    },
+    {
+      "target": "assets/monsters_live/textures/w_e_body2.png",
+      "group": "live_carousel",
+      "bytes": 94,
+      "sha256": "87653998cfe176ba5deb6e061f0a62e3daa31029a1525d289c5769d6728b2cad"
+    },
+    {
+      "target": "assets/monsters_live/textures/w_e_body2_y.png",
+      "group": "live_carousel",
+      "bytes": 94,
+      "sha256": "fd03e7ee5df8bf76114ec13465c15ddf422ac91d56ffe4c42c2744a333a78b52"
+    },
+    {
+      "target": "assets/monsters_live/textures/w_e_body3.png",
+      "group": "live_carousel",
+      "bytes": 94,
+      "sha256": "5946e6f3aef19ca3d49d5f8ee19f1a949c23e94ac584aa405a5e7431356ed58d"
+    },
+    {
+      "target": "assets/monsters_live/textures/w_e_body3_y.png",
+      "group": "live_carousel",
+      "bytes": 94,
+      "sha256": "f20c8da76501c2259834c7a4f96f71aaa3b736d9bdc426645b6d47fcf23b1692"
+    },
+    {
+      "target": "assets/monsters_live/textures/w_e_bodyr3.png",
+      "group": "live_carousel",
+      "bytes": 24839,
+      "sha256": "fb471a07fb50870d4cf018ab54770c1e3b764fb6e604b81fdeddf6b371a43e21"
+    },
+    {
+      "target": "assets/monsters_live/textures/w_e_bodyr3_y.png",
+      "group": "live_carousel",
+      "bytes": 47996,
+      "sha256": "2f7d407b614e5c1a03e15aa82f8bcbf88e5946b1229f298ca44d210de03fb96c"
+    },
+    {
+      "target": "assets/monsters_live/textures/w_e_bodyr4l.png",
+      "group": "live_carousel",
+      "bytes": 537,
+      "sha256": "01b0230c8e7fe0f891fed59269b1b4a85437d3b287b187d5803dc171540b19b8"
+    },
+    {
+      "target": "assets/monsters_live/textures/w_e_bodyr4r.png",
+      "group": "live_carousel",
+      "bytes": 554,
+      "sha256": "74be52bc1eb8eb52b8778fb27ee95309fe619097921c6528637898168d229c95"
+    },
+    {
+      "target": "assets/monsters_live/textures/w_e_bodys.png",
+      "group": "live_carousel",
+      "bytes": 1263,
+      "sha256": "2bb7669fc97ad4423c0bf04c2c29d92864b08a086351517aac28cd688ac8ff81"
+    },
+    {
+      "target": "assets/monsters_live/textures/w_e_bodys_y.png",
+      "group": "live_carousel",
+      "bytes": 1347,
+      "sha256": "ae02392c1751b0f397c53af4d400b93e292eff98a010a3bca29e2e7eb1a75051"
+    },
+    {
+      "target": "assets/monsters_live/textures/w_e_ha.png",
+      "group": "live_carousel",
+      "bytes": 914,
+      "sha256": "3d91092138f723c7feda6e7f09d570de9bcf69bc9e4b02873467f12cdcb5f6ae"
+    },
+    {
+      "target": "assets/monsters_live/textures/w_e_hari.png",
+      "group": "live_carousel",
+      "bytes": 1664,
+      "sha256": "f7686e557e11f13dbd322839634dc9f4473f39612843364d0bbbdc46234e75e9"
+    },
+    {
+      "target": "assets/monsters_live/textures/w_e_harig.png",
+      "group": "live_carousel",
+      "bytes": 1264,
+      "sha256": "67fc90a22bb58b84e77e2d1f9dd1135e2c9996b6407fffad4f0d5cd0471f775a"
+    },
+    {
+      "target": "assets/monsters_live/textures/w_e_harir.png",
+      "group": "live_carousel",
+      "bytes": 1429,
+      "sha256": "cde68551c68ca55044a4df71ae4d54d66622bfc29046b257020a10908a7edf7b"
+    },
+    {
+      "target": "assets/monsters_live/textures/w_e_hariy.png",
+      "group": "live_carousel",
+      "bytes": 1274,
+      "sha256": "1999cd14ab5257c369277ef301a6abab5f1c7c4d861b439b74b5d14c3bf8824e"
+    },
+    {
+      "target": "assets/monsters_live/textures/w_e_head2.png",
+      "group": "live_carousel",
+      "bytes": 23869,
+      "sha256": "040a8d6e2f754004b00c41913564e696d58b7fd99150f051838c5993409aa640"
+    },
+    {
+      "target": "assets/monsters_live/textures/w_e_head2_y.png",
+      "group": "live_carousel",
+      "bytes": 23244,
+      "sha256": "af35cf883bc462ef26124698a031affa75009f021e8481adb253dc6f3f8d561a"
+    },
+    {
+      "target": "assets/monsters_live/textures/w_e_head2a.png",
+      "group": "live_carousel",
+      "bytes": 26203,
+      "sha256": "c0f2c8ee9e84b51cdc2522680e05de735ac5873bc6aabfef24e3a315a7c5fcb9"
+    },
+    {
+      "target": "assets/monsters_live/textures/w_e_head2a_y.png",
+      "group": "live_carousel",
+      "bytes": 16641,
+      "sha256": "4106aa429741759acd45a019fe538c35b72f09938d543f838a5d2b331eae245c"
+    },
+    {
+      "target": "assets/monsters_live/textures/w_e_head2f.png",
+      "group": "live_carousel",
+      "bytes": 88198,
+      "sha256": "7af8667ad9d3bb8d339704042d26248ed0107135c59075c3f30ae4ab7fedcf17"
+    },
+    {
+      "target": "assets/monsters_live/textures/w_e_head2f_y.png",
+      "group": "live_carousel",
+      "bytes": 83680,
+      "sha256": "35b936e37dcaed3dcadd11bff9dd58df3daaf8df5ce8005c8f65a466ff5f7811"
+    },
+    {
+      "target": "assets/monsters_live/textures/w_e_me.png",
+      "group": "live_carousel",
+      "bytes": 408,
+      "sha256": "f9eef4cb98ba33ff8aeca27b41a7a943372998f1d8495eea4024f451620679a2"
+    },
+    {
+      "target": "assets/monsters_live/textures/w_e_me2.png",
+      "group": "live_carousel",
+      "bytes": 991,
+      "sha256": "b098ee45f3855f7b37bc39629aded8d4036e8a9127909e4655469cd6b3b89330"
+    },
+    {
+      "target": "assets/monsters_live/textures/w_e_tue2.png",
+      "group": "live_carousel",
+      "bytes": 42685,
+      "sha256": "a6bb393dd41005e58d69269caa307f20202359d9f5c69b6a55d68ecfca47bdd3"
+    },
+    {
+      "target": "assets/monsters_live/textures/w_e_tue2_y.png",
+      "group": "live_carousel",
+      "bytes": 42196,
+      "sha256": "4d3620dd7548b63db44cbd7b647c681e18f8209388e4c34c6984baaf596f37ab"
+    },
+    {
+      "target": "assets/monsters_live/textures/w_e_tuno_pw3.png",
+      "group": "live_carousel",
+      "bytes": 27181,
+      "sha256": "16428426d05bf89b120ad9af09753f21e640560b1154094d5da7dc82a9683739"
+    },
+    {
+      "target": "assets/monsters_live/textures/w_e_tuno_pw3_y.png",
+      "group": "live_carousel",
+      "bytes": 26746,
+      "sha256": "45c740bb04c9b4ea8f6bca615c3d0125aa464d33a6f7fe0c04be8c3f6f19386c"
+    },
+    {
+      "target": "assets/monsters_live/textures/w_e_ude.png",
+      "group": "live_carousel",
+      "bytes": 313,
+      "sha256": "7c7129d081a55778187b92279525a5bcfb9959052f0e8348e08126747dac4aa4"
+    },
+    {
+      "target": "assets/monsters_live/textures/w_e_ude_y.png",
+      "group": "live_carousel",
+      "bytes": 350,
+      "sha256": "230ba75beb233eee70a5b8379174ec819df8fabb63b75dc8d4317c6b0240756b"
+    },
+    {
+      "target": "assets/monsters_live/textures/y_tetu1a.png",
+      "group": "live_carousel",
+      "bytes": 6747,
+      "sha256": "695363244b0e11c9362c4021523d4ad3b1043198a796dad87a5272b71a89d252"
+    },
+    {
+      "target": "assets/monsters_live/textures/y_tetu2a.png",
+      "group": "live_carousel",
+      "bytes": 6834,
+      "sha256": "1ee1b68764d3d4bd173d3af46c1ff14847571728cfdca9d12b9c11d77ddbacb7"
+    },
+    {
+      "target": "assets/monsters_live/textures/z_p_yagi4.png",
+      "group": "live_carousel",
+      "bytes": 18082,
+      "sha256": "2524932b33e1896e5e259e201a507fd237a3c73682a03deaf86b96d80fe18bbf"
+    },
+    {
+      "target": "assets/monsters_live/textures/z_p_yagiy.png",
+      "group": "live_carousel",
+      "bytes": 68216,
+      "sha256": "04e04fc8a529b156063f4179818970272c87fd598a7bf6c7e993e5bd28a7b755"
+    },
+    {
+      "target": "assets/monsters_live/textures/z_p_yagiy2.png",
+      "group": "live_carousel",
+      "bytes": 5819,
+      "sha256": "e6d0ebc3c723f6cf7def5d9facc3a45b22056175558ed940986a929365690169"
+    },
+    {
+      "target": "assets/monsters_live/textures/z_p_yagiy2af.png",
+      "group": "live_carousel",
+      "bytes": 6359,
+      "sha256": "55de6b3124893ba3278e6ac515501ccc90b73c969d60274fc07fab79535918a8"
+    },
+    {
+      "target": "assets/monsters_live/textures/z_p_yagiy3.png",
+      "group": "live_carousel",
+      "bytes": 5781,
+      "sha256": "80ffdfc682cb39ee1bcd2edd5a3d43a792034816b70e22daf7d13d5b0cc66317"
+    },
+    {
+      "target": "assets/monsters_live/textures/z_p_yagiy3af.png",
+      "group": "live_carousel",
+      "bytes": 6322,
+      "sha256": "9198cffd541538bd17229e51fd245d5f35e9334ad4deb83cd3af8f7eaf88413d"
+    },
+    {
+      "target": "assets/monsters_live/textures/z_p_yagiy5.png",
+      "group": "live_carousel",
+      "bytes": 17816,
+      "sha256": "844bb7cbbc0114a4ecd4b70d71d10726ce07be4c2f095e25ab0f1ef81a19ea18"
+    },
+    {
+      "target": "assets/monsters_live/textures/z_p_yagiy5_b.png",
+      "group": "live_carousel",
+      "bytes": 20350,
+      "sha256": "aeedd01056b54770d23ed3119e896bc3debc401f15f7b8cee6dcd0a8a9fbc5a2"
+    },
+    {
+      "target": "assets/monsters_live/textures/z_p_yagiy5_g.png",
+      "group": "live_carousel",
+      "bytes": 18876,
+      "sha256": "f0454cac9be169d02654cd88d037cd8b3194a416fb5593c3f5336d4542d9e788"
+    },
+    {
+      "target": "assets/monsters_live/textures/z_p_yagiy6b.png",
+      "group": "live_carousel",
+      "bytes": 5979,
+      "sha256": "1ebdcd5c305a0f197911195e1f3042d78b240c5a15c78a80e68386225757c1a6"
+    },
+    {
+      "target": "assets/monsters_live/textures/z_p_yagiy6b_b.png",
+      "group": "live_carousel",
+      "bytes": 6352,
+      "sha256": "64a766a939cb1949b640912f736904da7d2bc2b9832651f86f3bbc8ed78a9d03"
+    },
+    {
+      "target": "assets/monsters_live/textures/z_p_yagiy6b_g.png",
+      "group": "live_carousel",
+      "bytes": 6148,
+      "sha256": "4409905cfdd23ef50a5e0d28beeaff1a7c713b53291c9d3734e42cb2e7624292"
+    },
+    {
+      "target": "assets/monsters_live/textures/z_p_yagiy_b.png",
+      "group": "live_carousel",
+      "bytes": 71759,
+      "sha256": "4b42d8f6dddccf081a5f652292d44dbd4009a93ddec0b0835859dbae8876e0e0"
+    },
+    {
+      "target": "assets/monsters_live/textures/z_p_yagiy_g.png",
+      "group": "live_carousel",
+      "bytes": 71008,
+      "sha256": "91a2e6e408076840a73ccb3ac379d446146d167f5b4e6dff25bdd456ea34267f"
+    },
+    {
+      "target": "assets/music/audio/bossdemo.mp3",
+      "group": "music_library",
+      "bytes": 1556088,
+      "sha256": "75e21efd705d6237372711a1318c5337bcf81189f941a7b2f1e189dcfbaa4e04"
+    },
+    {
+      "target": "assets/music/audio/round1.mp3",
+      "group": "music_library",
+      "bytes": 10843137,
+      "sha256": "6b9ad85edce219b871664965733a642c9c0d67ff41c7ae6ee763ce225636dc55"
+    },
+    {
+      "target": "assets/music/audio/round2.mp3",
+      "group": "music_library",
+      "bytes": 6505765,
+      "sha256": "e767b5bdbd1e2b4f3aa79c9ea486df9266ac7f2f3e8d2d4e08bcbebf64ea06c7"
+    },
+    {
+      "target": "assets/music/audio/round3.mp3",
+      "group": "music_library",
+      "bytes": 9761667,
+      "sha256": "9bdd941f725b132f00a9f5592f0c7d59d6593defd7148f2368c5578ea510f0d4"
+    },
+    {
+      "target": "assets/music/audio/round4.mp3",
+      "group": "music_library",
+      "bytes": 7822337,
+      "sha256": "e133b8ec9a306f1553f4a79e6c7eca9294f5968951a9385b250cbffd66bffd59"
+    },
+    {
+      "target": "assets/music/audio/round5.mp3",
+      "group": "music_library",
+      "bytes": 6191251,
+      "sha256": "b28e5ebb1e505c40f107d91b9b4276e06d02a611dce68fb9f4e306191eb50859"
+    },
+    {
+      "target": "assets/music/audio/round6.mp3",
+      "group": "music_library",
+      "bytes": 6434712,
+      "sha256": "ba297fe47da4afef406bfa3618278b475bfa1d2c3ff76bf2e46579c44674f1b4"
+    },
+    {
+      "target": "assets/music/audio/round8.mp3",
+      "group": "music_library",
+      "bytes": 6368884,
+      "sha256": "4e1f284df512af6dbdbffb134e6edae60c7eaf125923ce485c538c9104ee8a3f"
+    },
+    {
+      "target": "assets/music/audio/round9.mp3",
+      "group": "music_library",
+      "bytes": 7417961,
+      "sha256": "7fa5a237651e82b54e35d196628e554c73811d2ba0b206acee32a49e80a7e5cc"
+    },
+    {
+      "target": "assets/music/backgrounds/ssl_r01.png",
+      "group": "music_library",
+      "bytes": 240315,
+      "sha256": "ed293285efa52290ce592eaf2b549a53301cf4cc649f3ba6e6e7fefae3a1094b"
+    },
+    {
+      "target": "assets/music/backgrounds/ssl_r02.png",
+      "group": "music_library",
+      "bytes": 263329,
+      "sha256": "8759e98cc71b881335411e65ffa14bc7906718c522a3831d9c72a0381ba7cbd6"
+    },
+    {
+      "target": "assets/music/backgrounds/ssl_r03.png",
+      "group": "music_library",
+      "bytes": 250036,
+      "sha256": "c4aa69b227a32ac3f5bf8f4ffc6c6a0d66d0e387937d0bcc7e5e1f63ef825cb1"
+    },
+    {
+      "target": "assets/music/backgrounds/ssl_r04.png",
+      "group": "music_library",
+      "bytes": 232740,
+      "sha256": "63d522c7f9d325e001a21509a7adafda67431a0e9d2c6cda806dc05c9d466260"
+    },
+    {
+      "target": "assets/music/backgrounds/ssl_r05.png",
+      "group": "music_library",
+      "bytes": 244887,
+      "sha256": "9101b833222eb4b66832195874fe0fa242fbbf3b749b79698f22dc283672c353"
+    },
+    {
+      "target": "assets/music/backgrounds/ssl_r06.png",
+      "group": "music_library",
+      "bytes": 231536,
+      "sha256": "093620a4ed79c16c186bf2342511c677be9d94d1df75090c264fae6eecfc850b"
+    },
+    {
+      "target": "assets/music/backgrounds/ssl_r08.png",
+      "group": "music_library",
+      "bytes": 191121,
+      "sha256": "c0fe41e7df36cd320cdf408dd4311c6ed1ceca682f234e635a4f057a47b7cff9"
+    },
+    {
+      "target": "assets/music/backgrounds/ssl_r09.png",
+      "group": "music_library",
+      "bytes": 195214,
+      "sha256": "e2dade9c4592012100c902cea2aa5e9a3f65e0d5874e964af67e573d1128399e"
+    },
+    {
+      "target": "assets/music/backgrounds/ssl_r10.png",
+      "group": "music_library",
+      "bytes": 263649,
+      "sha256": "9aa898207624050f7ff99a7652eb78501d4dd22f2264a09f32fd4f6a39abb66e"
+    },
+    {
+      "target": "assets/music/catalog.json",
+      "group": "music_library",
+      "bytes": 5295,
+      "sha256": "7b462e66c8b46419731b1070425257f1bf0a06ebc73df7933c4fc37b4b6ea302"
+    },
+    {
+      "target": "assets/music/ui/logo.png",
+      "group": "music_library",
+      "bytes": 148487,
+      "sha256": "5d835791787663da79d1ce5308025507ee24d5a9ce615d8988a2a987ca76df21"
+    },
+    {
+      "target": "assets/music/ui/panel_blue.png",
+      "group": "music_library",
+      "bytes": 5706,
+      "sha256": "ac5807c09f28e65aab1257d918e7f13de9e080febc032ef6658e57a10e432e4f"
+    },
+    {
+      "target": "assets/music/ui/panel_orange.png",
+      "group": "music_library",
+      "bytes": 4314,
+      "sha256": "1e010764a047473ba980bd740053708d0dd26d76f46bdaa0eed5b778769e8a3b"
+    },
+    {
+      "target": "lib/arm64-v8a/libSDL3.so",
+      "group": "native_from_hakux_apk",
+      "bytes": 2513232,
+      "sha256": "303899002f1891317c74e7f3a71cc78cbdaae88b46055cba241c73d5b24c65ff"
+    },
+    {
+      "target": "lib/arm64-v8a/libhakuxcore.so",
+      "group": "native_from_hakux_apk",
+      "bytes": 6852304,
+      "sha256": "45e4968858b5fcd07fd15b5b052fdacb3a9f046ffd5279265fae204138763f7b"
+    },
+    {
+      "target": "res/drawable-anydpi-v26/ic_launcher.xml",
+      "group": "frontend_overlay",
+      "bytes": 278,
+      "sha256": "0c3dfad5310dc2d325479d6eac829a6ef251db9c6468d529ec10d4cfa0126476"
+    },
+    {
+      "target": "res/drawable-anydpi-v33/ic_launcher.xml",
+      "group": "frontend_overlay",
+      "bytes": 350,
+      "sha256": "39a1260bd4804acf53ce29da15351338287b17c6f9f0ba861d2757c81cb1d560"
+    },
+    {
+      "target": "res/drawable-hdpi/ic_launcher_legacy.png",
+      "group": "frontend_overlay",
+      "bytes": 6762,
+      "sha256": "964130e11df9dee295f0dd7ce77ef1e4978fb85260c34bd59769c74d901b776e"
+    },
+    {
+      "target": "res/drawable-mdpi/ic_launcher_legacy.png",
+      "group": "frontend_overlay",
+      "bytes": 3546,
+      "sha256": "b71f785831755a48c8a883f06a6f9e1dc4b423088ff2d477238127aaba752df6"
+    },
+    {
+      "target": "res/drawable-nodpi/ic_launcher_background.png",
+      "group": "frontend_overlay",
+      "bytes": 24086,
+      "sha256": "03ac3e7afee2622ebbd8d216287b1d08a25ecb74127f54a5943721a0a45cf738"
+    },
+    {
+      "target": "res/drawable-nodpi/ic_launcher_foreground.png",
+      "group": "frontend_overlay",
+      "bytes": 47398,
+      "sha256": "521ac179fc56f7e1a30cafea632ac80eb4375b04774b8f86c1b427e97b0485db"
+    },
+    {
+      "target": "res/drawable-nodpi/ic_launcher_monochrome.png",
+      "group": "frontend_overlay",
+      "bytes": 12611,
+      "sha256": "648c0ce411bba72dd6304a73921170af2ca1f5a950613136fb34ad85d36b382b"
+    },
+    {
+      "target": "res/drawable-xhdpi/ic_launcher_legacy.png",
+      "group": "frontend_overlay",
+      "bytes": 10144,
+      "sha256": "45ef3b8eef989f8d8de5b0e2ddfa2d061e94aba7a6ea206e244ce9ee55864798"
+    },
+    {
+      "target": "res/drawable-xhdpi/launcher_amber.9.png",
+      "group": "base_app",
+      "bytes": 8236,
+      "sha256": "eb9b3e47aba68c5e575ae79f98b667c0801b59eb775c30e82803b7e91da3c278"
+    },
+    {
+      "target": "res/drawable-xhdpi/launcher_steel.9.png",
+      "group": "base_app",
+      "bytes": 7766,
+      "sha256": "8d71aff02794a571e665234675a87f4b2ea6fed1f8348443be6bd2a5d1327c42"
+    },
+    {
+      "target": "res/drawable-xxhdpi/ic_launcher_legacy.png",
+      "group": "frontend_overlay",
+      "bytes": 19684,
+      "sha256": "8e872431ab1ffcaf54950e1a7c44982a76919347ac1baab01c9cadace4e91ed8"
+    },
+    {
+      "target": "res/drawable-xxxhdpi/ic_launcher_legacy.png",
+      "group": "frontend_overlay",
+      "bytes": 30582,
+      "sha256": "1342c0b9727fa480fa6c5ccab72d5de1fca95ca86722b0e83202dd4e439cd7b6"
+    },
+    {
+      "target": "res/drawable/ic_launcher.xml",
+      "group": "frontend_overlay",
+      "bytes": 204,
+      "sha256": "ecec2f9c22af0b1f17ba84c6383fe841ef8f6f4ce19e02b48f61498e78c6be9a"
+    },
+    {
+      "target": "res/values/styles.xml",
+      "group": "base_app",
+      "bytes": 650,
+      "sha256": "fe0d2523bdc2f597f840657f9d5e43693f53acec981356c90a82e94533b8bbd8",
+      "public_source": "source/app/res/values/styles.xml"
+    },
+    {
+      "target": "src/com/rfandango/haku_x/NativeCoreActivity.java",
+      "group": "runtime_java",
+      "bytes": 839,
+      "sha256": "c83b52203693ddaaf46d3d0a407d12d19f96ee8ebfca00d90e38fc81f4ac2b53",
+      "public_source": "source/combined/runtime/java/com/rfandango/haku_x/NativeCoreActivity.java"
+    },
+    {
+      "target": "src/it/blinx/demo/v1/AcceleratedGameActivity.java",
+      "group": "runtime_java",
+      "bytes": 14059,
+      "sha256": "0e0f076e25426bdd1a05e32dfdab15bdcd3d58265bfefc82823f2030b362d482",
+      "public_source": "source/combined/runtime/java/it/blinx/demo/v1/AcceleratedGameActivity.java"
+    },
+    {
+      "target": "src/it/blinx/demo/v1/AssetInstaller.java",
+      "group": "base_app",
+      "bytes": 8168,
+      "sha256": "834581f6bb1c1674ab508e50cc4f1776fa0bfab6c73240012a17aed7d8ee746a",
+      "public_source": "source/app/src/it/blinx/demo/v1/AssetInstaller.java"
+    },
+    {
+      "target": "src/it/blinx/demo/v1/BlinxArt.java",
+      "group": "base_app",
+      "bytes": 2085,
+      "sha256": "21dc1fc9a82385f2fe7d9926aaf958c9930c0b9bc0d3012738e60bab75671354",
+      "public_source": "source/app/src/it/blinx/demo/v1/BlinxArt.java"
+    },
+    {
+      "target": "src/it/blinx/demo/v1/CoreRestartActivity.java",
+      "group": "runtime_java",
+      "bytes": 2129,
+      "sha256": "e15aa175bea2741f7a2d52f2b7a71f14a4c61aefda4cbfdc3e7abf3ac982590f",
+      "public_source": "source/combined/runtime/java/it/blinx/demo/v1/CoreRestartActivity.java"
+    },
+    {
+      "target": "src/it/blinx/demo/v1/DemoApplication.java",
+      "group": "base_app",
+      "bytes": 1429,
+      "sha256": "2cee651eda4e1e9f870a33d6f6ceefc0dd0ecd684909cf8d936c2a4e34041307",
+      "public_source": "source/app/src/it/blinx/demo/v1/DemoApplication.java"
+    },
+    {
+      "target": "src/it/blinx/demo/v1/DemoLocale.java",
+      "group": "frontend_overlay",
+      "bytes": 14436,
+      "sha256": "826ac069e7df20ba8b9be405c771414d4ecfcd60fb2b5eb8f5fa016bfff63d49",
+      "public_source": "source/combined/frontend/app/src/it/blinx/demo/v1/DemoLocale.java"
+    },
+    {
+      "target": "src/it/blinx/demo/v1/Diagnostics.java",
+      "group": "base_app",
+      "bytes": 4059,
+      "sha256": "5c6dd17e94007549c2a22228f5658767e9f1608690b101e30af4d53391c428b5",
+      "public_source": "source/app/src/it/blinx/demo/v1/Diagnostics.java"
+    },
+    {
+      "target": "src/it/blinx/demo/v1/DiscInstaller.java",
+      "group": "installer_java",
+      "bytes": 7176,
+      "sha256": "9ca9668af1b724104df96b4d5184f418d16a219d3fa14f962a9108289eb199c4",
+      "public_source": "source/combined/packaging/java/it/blinx/demo/v1/DiscInstaller.java",
+      "export_sha256": "0c06d4d6ba184619d3d727d873ad4acdabae02fd4d1be2f5f2b3a1ad23e1113e",
+      "export_bytes": 8401
+    },
+    {
+      "target": "src/it/blinx/demo/v1/HubActivity.java",
+      "group": "frontend_overlay",
+      "bytes": 3947,
+      "sha256": "ee54831d34b0f0655fd13b868ac1ff1186babc884be13e5699a847c0cbd09ab3",
+      "public_source": "source/combined/frontend/app/src/it/blinx/demo/v1/HubActivity.java"
+    },
+    {
+      "target": "src/it/blinx/demo/v1/LiveMonsterCarousel.java",
+      "group": "frontend_overlay",
+      "bytes": 16458,
+      "sha256": "553af6d41c026e82aa13f397ae8e2ab89c38b91c68fa08b2773f82b4a2f15168",
+      "public_source": "source/combined/frontend/app/src/it/blinx/demo/v1/LiveMonsterCarousel.java"
+    },
+    {
+      "target": "src/it/blinx/demo/v1/LogProvider.java",
+      "group": "base_app",
+      "bytes": 2757,
+      "sha256": "ac513d36b24fcb1b33fbfa5be3eb8f71985551db1b762a137286a80e6161f1ec",
+      "public_source": "source/app/src/it/blinx/demo/v1/LogProvider.java"
+    },
+    {
+      "target": "src/it/blinx/demo/v1/MainActivity.java",
+      "group": "frontend_overlay",
+      "bytes": 14257,
+      "sha256": "039b81d8797dcefd86eb3598333674187e36ec00251bee60e9e92df11d4e031f",
+      "public_source": "source/combined/frontend/app/src/it/blinx/demo/v1/MainActivity.java"
+    },
+    {
+      "target": "src/it/blinx/demo/v1/MenuMusic.java",
+      "group": "frontend_overlay",
+      "bytes": 6902,
+      "sha256": "b8b670e9d011bca58a1300dfbac989a82ef4a810a29ef9f067c81580f1785f8b",
+      "public_source": "source/combined/frontend/app/src/it/blinx/demo/v1/MenuMusic.java"
+    },
+    {
+      "target": "src/it/blinx/demo/v1/MonsterCarousel.java",
+      "group": "frontend_overlay",
+      "bytes": 10788,
+      "sha256": "ce2443740554572fda45f6145e75b5ebea820bd1c48c739cbe44cee9b6e775fb",
+      "public_source": "source/combined/frontend/app/src/it/blinx/demo/v1/MonsterCarousel.java"
+    },
+    {
+      "target": "src/it/blinx/demo/v1/MusicActivity.java",
+      "group": "frontend_overlay",
+      "bytes": 21839,
+      "sha256": "86a678d2eb0329d10f9183be5c2cb2242535e95a49df24c1584d4742c97a39f7",
+      "public_source": "source/combined/frontend/app/src/it/blinx/demo/v1/MusicActivity.java"
+    },
+    {
+      "target": "src/it/blinx/demo/v1/PalSaveInstaller.java",
+      "group": "installer_java",
+      "bytes": 8453,
+      "sha256": "77b44817c83e4940c11b671c81e48d4152cd39a0bdae2e75fce1d2bfca381649",
+      "public_source": "source/combined/packaging/java/it/blinx/demo/v1/PalSaveInstaller.java"
+    },
+    {
+      "target": "src/it/blinx/demo/v1/RuntimeSettings.java",
+      "group": "runtime_java",
+      "bytes": 1342,
+      "sha256": "673fac17514000a6af8923f2a2705646118f01adafcbdef0b71986b10e0041ac",
+      "public_source": "source/combined/runtime/java/it/blinx/demo/v1/RuntimeSettings.java"
+    },
+    {
+      "target": "src/it/blinx/demo/v1/TouchControls.java",
+      "group": "runtime_java",
+      "bytes": 13210,
+      "sha256": "409c74db76464decce2376712d70f37470d4a27ae9cc414df0b9853d7e5d78d8",
+      "public_source": "source/combined/runtime/java/it/blinx/demo/v1/TouchControls.java"
+    },
+    {
+      "target": "src/it/blinx/demo/v1/XboxTouchInput.java",
+      "group": "runtime_java",
+      "bytes": 2108,
+      "sha256": "c1394a55a65b0c48b2fe399f285a8736ba83d59fd97e5e0e57d3cfc4d080d0ff",
+      "public_source": "source/combined/runtime/java/it/blinx/demo/v1/XboxTouchInput.java"
+    },
+    {
+      "target": "src/org/libsdl/app/HIDDevice.java",
+      "group": "sdl_java",
+      "bytes": 597,
+      "sha256": "afdeaf583f051583eff5cc9dcbfb983e3e8923e66d1130ff3e30c21afc8f87f1",
+      "public_source": "source/combined/runtime/sdl_java/org/libsdl/app/HIDDevice.java"
+    },
+    {
+      "target": "src/org/libsdl/app/HIDDeviceBLESteamController.java",
+      "group": "sdl_java",
+      "bytes": 32623,
+      "sha256": "2f88711d2c5bb2114be4273b6f3461b165cf19fcedae714d0c0105b2422a4c36",
+      "public_source": "source/combined/runtime/sdl_java/org/libsdl/app/HIDDeviceBLESteamController.java"
+    },
+    {
+      "target": "src/org/libsdl/app/HIDDeviceManager.java",
+      "group": "sdl_java",
+      "bytes": 27759,
+      "sha256": "5bff9432726930a17cad9502191dd807da2e3cbcff2ad6990966b4b4bd9a7757",
+      "public_source": "source/combined/runtime/sdl_java/org/libsdl/app/HIDDeviceManager.java"
+    },
+    {
+      "target": "src/org/libsdl/app/HIDDeviceUSB.java",
+      "group": "sdl_java",
+      "bytes": 10996,
+      "sha256": "2304ead390ae8839405f338866646fd7e12013732c5abe9339af60864626ddf4",
+      "public_source": "source/combined/runtime/sdl_java/org/libsdl/app/HIDDeviceUSB.java"
+    },
+    {
+      "target": "src/org/libsdl/app/SDL.java",
+      "group": "sdl_java",
+      "bytes": 3481,
+      "sha256": "49d13bd76b65b40bc13b8f4ff1333ecf9fc5473a57bb2d216e2a60dc2e5973a4",
+      "public_source": "source/combined/runtime/sdl_java/org/libsdl/app/SDL.java"
+    },
+    {
+      "target": "src/org/libsdl/app/SDLActivity.java",
+      "group": "sdl_java",
+      "bytes": 83515,
+      "sha256": "b2d83e607056d88b3f51d8b1a7b2f3b51eb5f0e0c62c7d4389d35eee213ee57a",
+      "public_source": "source/combined/runtime/sdl_java/org/libsdl/app/SDLActivity.java"
+    },
+    {
+      "target": "src/org/libsdl/app/SDLAudioManager.java",
+      "group": "sdl_java",
+      "bytes": 4682,
+      "sha256": "129990250d389bc6550c1a27a81ee9a4cc32a4d6e9080f2fe466480988f214eb",
+      "public_source": "source/combined/runtime/sdl_java/org/libsdl/app/SDLAudioManager.java"
+    },
+    {
+      "target": "src/org/libsdl/app/SDLControllerManager.java",
+      "group": "sdl_java",
+      "bytes": 37814,
+      "sha256": "3bb5d739727b72688cdfe4fe2a3dd6fd7005a2fd2aac311deeda1e53c23e3981",
+      "public_source": "source/combined/runtime/sdl_java/org/libsdl/app/SDLControllerManager.java"
+    },
+    {
+      "target": "src/org/libsdl/app/SDLDummyEdit.java",
+      "group": "sdl_java",
+      "bytes": 2381,
+      "sha256": "fb777fa4b4cce4d328229014acf156c2c2f47445dacccd5f74f876a64cdf502b",
+      "public_source": "source/combined/runtime/sdl_java/org/libsdl/app/SDLDummyEdit.java"
+    },
+    {
+      "target": "src/org/libsdl/app/SDLInputConnection.java",
+      "group": "sdl_java",
+      "bytes": 4789,
+      "sha256": "7079f65944ce0f6e8e3ca0293fc79c1e4e050f3b4290c39990723e3a0e40bc9b",
+      "public_source": "source/combined/runtime/sdl_java/org/libsdl/app/SDLInputConnection.java"
+    },
+    {
+      "target": "src/org/libsdl/app/SDLSensorManager.java",
+      "group": "sdl_java",
+      "bytes": 2751,
+      "sha256": "3ffd781744c54e6809ad61515d254af366d34b44e086db90a296c8f159f13dd7",
+      "public_source": "source/combined/runtime/sdl_java/org/libsdl/app/SDLSensorManager.java"
+    },
+    {
+      "target": "src/org/libsdl/app/SDLSurface.java",
+      "group": "sdl_java",
+      "bytes": 15035,
+      "sha256": "94762faf8067f9ff64b96c8be13c04c1d6daa5561b59f753e9ad0c0aa30e23c8",
+      "public_source": "source/combined/runtime/sdl_java/org/libsdl/app/SDLSurface.java"
+    }
+  ]
+}

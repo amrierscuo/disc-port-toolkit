@@ -1,0 +1,35 @@
+BLINX ANDROID - RICEVUTA OPENTIMESTAMPS
+Invio autorizzato il 17 novembre 2026. Nessuna pubblicazione GitHub.
+
+Oggetto: ANCHOR.json, lasciato identico al manifest preparato prima dell'invio.
+SHA256: 1c1d35f426182f08c44ae28f0a4d272116446261e0a3360b2ce12a4048a989aa
+Prova staccata: ANCHOR.json.ots, 689 byte. Conservare insieme entrambi i file.
+Il manifest collega i due ZIP sorgenti, l'APK di prova, i nuovi commit locali
+e l'hash dello storico Git originale conservato privatamente.
+
+Ricevute PendingAttestation da Alice, Bob e Finney. Il client ufficiale
+OpenTimestamps 0.8.0 ha inviato impegni hash, non il documento o i sorgenti.
+Lettura della prova e corrispondenza SHA256 al manifest verificate localmente.
+Una prima richiesta upgrade ha controllato tutti e tre i calendari: la prova
+non e ancora completa sulla blockchain Bitcoin. Nessun height Bitcoin presente.
+Stato: INVIATO, PROVA SALVATA, CONFERMA BITCOIN IN ATTESA.
+Non viene dichiarata una verifica indipendente di una conferma Bitcoin.
+
+L'attestazione futura non certifica retroattivamente le date dei vecchi commit
+e non dimostra paternita, originalita o diritti. Le date nel manifest e il suo
+testo su nessun invio descrivono lo snapshot preparato PRIMA di questa richiesta;
+non modificarlo per aggiornarne la descrizione, altrimenti l'hash non coincide.
+Lo stato successivo e registrato separatamente in TIMESTAMP_STATUS.json.
+
+Per un aggiornamento manuale usare AGGIORNA_PROVA.cmd: contatta soltanto i
+calendari indicati e tenta upgrade della prova gia esistente. Non ristampa
+il documento, non usa wallet e non pubblica codice. Leggere il risultato:
+PendingAttestation non equivale a conferma. Una verifica indipendente della
+conferma con il client di riferimento richiede un nodo Bitcoin appropriato;
+non ne abbiamo installato o configurato uno.
+
+Ambiente Python isolato, versioni e log conservati nel dossier della verifica.
+Il caricamento OpenSSL usa la DLL gia presente in Git per Windows, senza
+modificare pacchetti, file di sistema o impostazioni. Non sono state lette o
+usate chiavi, credenziali, wallet o configurazioni Bitcoin personali.
+Originali, Android corrente, cloni, nativo e pacchetti preparati invariati.

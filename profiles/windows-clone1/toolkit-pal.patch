@@ -1,0 +1,20 @@
+diff --git a/tools/recomp/config.py b/tools/recomp/config.py
+index dc007eefc2ea2a90ede756329dba0b4adf657f2d..0ad71c1ed4e58e508c455f1ea3b50b156b0ffec9 100644
+--- a/tools/recomp/config.py
++++ b/tools/recomp/config.py
+@@ -121,4 +121,8 @@ def configure_from_xbe(xbe_path: str) -> None:
+ 
+     xbe = XBEParser(xbe_path).parse()
++    # Local BLiNX adapter: preserve the game manifest code/data selection
++    # during indirect-target discovery too. Most PAL data has EXECUTABLE set.
++    blinx_code = {'XPP', 'D3DX', 'DSOUND', 'PSGSFD00', 'PSGSFD_I', 'XGRPH', '.text', 'D3D', 'PSGSFD_P', 'PSGSFD_B'}
++    is_blinx = xbe.certificate.title_id == 0x4D530013
+     sections = [
+         Section(
+@@ -128,5 +132,5 @@ def configure_from_xbe(xbe_path: str) -> None:
+             raw_addr=s.raw_addr,
+             raw_size=s.raw_size,
+-            is_code=_classify(s.name, s.flags),
++            is_code=(s.name in blinx_code) if is_blinx else _classify(s.name, s.flags),
+         )
+         for s in xbe.sections

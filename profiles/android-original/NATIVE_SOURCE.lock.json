@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/rfandango/hakuX.git",
+  "tag": "v1.3.0",
+  "commit": "a90f01ee4629977b36a76175cbd781d383056293",
+  "fex_repository": "https://github.com/rfandango/FEX.git",
+  "fex_commit": "52018bf46a8279b22bce738548ab3f40db467064",
+  "apk_sha256": "143f9e602ab20a7143f357d3a5fa8eba145bdd6cde90d80cbcfadfd7919e9176",
+  "libraries": {
+    "libSDL3.so": "303899002f1891317c74e7f3a71cc78cbdaae88b46055cba241c73d5b24c65ff",
+    "libhakuxcore.so": "45e4968858b5fcd07fd15b5b052fdacb3a9f046ffd5279265fae204138763f7b"
+  },
+  "complete_native_source_bundled": false,
+  "native_source_rebuild_performed": false
+}
